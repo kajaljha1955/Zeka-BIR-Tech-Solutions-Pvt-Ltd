@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Zeka BIR Tech Solutions — Strategic advisory for lending and technology businesses</title>
+<meta name="description" content="Zeka BIR is a strategic advisory and business growth platform working with promoters, boards and CXOs across FinTech, NBFC, MSME lending and technology." />
+<meta name="theme-color" content="#050F1F" />
+<link rel="canonical" href="https://www.zekabir.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Zeka BIR Tech Solutions Pvt. Ltd." />
+<meta property="og:title" content="Zeka BIR Tech Solutions" />
+<meta property="og:description" content="Strategic advisory and business growth across FinTech, NBFC, MSME lending and technology." />
+<meta property="og:url" content="https://www.zekabir.com/" />
+<meta property="og:image" content="https://www.zekabir.com/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="favicon.png" type="image/png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Newsreader:ital,wght@1,300;1,400&display=swap" rel="stylesheet" />
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"ProfessionalService",
+  "name":"Zeka BIR Tech Solutions Pvt. Ltd.","alternateName":"Zeka BIR",
+  "url":"https://www.zekabir.com/","slogan":"Business Intelligence and Resilience",
+  "description":"Strategic advisory and business growth platform focused on FinTech, NBFC, MSME lending and technology ecosystems.",
+  "areaServed":"IN","founder":{"@type":"Person","name":"Vikas Arora"},
+  "knowsAbout":["MSME lending","Supply chain finance","Working capital","NBFC strategy","FinTech","Mortgage lending","Fundraising readiness"]
+}
+</script>
+
+<style>
+/* =========================================================
+   ZEKA BIR — midnight & brass
+   Navy #0C1B36 · brass #C2963E · verdigris #0E8163 (from mark)
+   ========================================================= */
+:root{
+  --ink:#050F1F;
+  --ink-2:#0A1830;
+  --navy:#0C193B;
+  --navy-3:#132B50;
+  --brass:#C29B51;
+  --brass-hi:#EDCF8B;
+  --brass-lo:#8C6E20;
+  --teal:#188F70;
+  --teal-hi:#28A880;
+
+  --parch:#F5F3EE;
+  --parch-2:#FBFAF7;
+  --line-d:rgba(235,213,160,.16);
+  --line-dd:rgba(255,255,255,.09);
+  --line-l:#DED9CE;
+  --txt-d:rgba(226,233,242,.72);
+  --txt-l:#4B5361;
+
+  --disp:"Archivo",-apple-system,"Segoe UI",sans-serif;
+  --body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --quote:"Newsreader",Cambria,Georgia,serif;
+
+  --gutter:clamp(20px,5vw,68px);
+  --maxw:1240px;
+  --sect:clamp(76px,9.5vw,140px);
+  --e:cubic-bezier(.22,.61,.36,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ink);color:#E9EEF5;
+  font-family:var(--body);font-size:16.5px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body.nav-open{overflow:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.skip{position:absolute;left:-9999px;z-index:300;background:var(--brass);color:#0B1730;padding:12px 18px;font-weight:600}
+.skip:focus{left:12px;top:12px}
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+
+/* grain + glow utilities */
+.grain::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+}
+
+/* ---------- type ---------- */
+h1,h2,h3,h4{font-family:var(--disp);font-weight:600;margin:0;line-height:1.06;letter-spacing:-.028em}
+h1{font-size:clamp(2.3rem,4.9vw,4rem);letter-spacing:-.036em}
+h2{font-size:clamp(1.95rem,3.9vw,3.15rem);letter-spacing:-.032em}
+h3{font-size:clamp(1.1rem,1.55vw,1.28rem);font-weight:600;letter-spacing:-.014em;line-height:1.28}
+p{margin:0 0 1.05em}
+.lede{font-size:clamp(1.02rem,1.4vw,1.16rem);line-height:1.68;color:var(--txt-d);max-width:60ch}
+.on-light .lede{color:var(--txt-l)}
+.gold{color:var(--brass)}
+.on-light .gold{color:var(--brass-lo)}
+
+.kicker{
+  font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--brass);display:inline-flex;align-items:center;gap:.7em;margin:0 0 1.2rem;
+}
+.kicker::before{content:"";width:22px;height:1px;background:linear-gradient(90deg,var(--brass),transparent)}
+.on-light .kicker{color:var(--brass-lo)}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:.62em;border:1px solid transparent;border-radius:2px;
+  font-family:var(--body);font-size:.87rem;font-weight:600;letter-spacing:.005em;padding:.85em 1.45em;
+  transition:background .28s var(--e),color .28s var(--e),border-color .28s var(--e),box-shadow .28s var(--e),transform .2s var(--e);
+}
+.btn .arw{transition:transform .28s var(--e)}
+.btn:hover .arw{transform:translateX(4px)}
+.btn-gold{background:linear-gradient(135deg,#E0BC70,#C2963E 55%,#A87F2E);color:#12203A;box-shadow:0 8px 24px -12px rgba(194,150,62,.8)}
+.btn-gold:hover{box-shadow:0 14px 32px -12px rgba(194,150,62,.95);transform:translateY(-1px)}
+.btn-line{border-color:rgba(235,213,160,.32);color:#EBD5A0}
+.btn-line:hover{border-color:var(--brass);background:rgba(194,150,62,.1)}
+.btn-ink{background:var(--navy);color:#fff;border-color:var(--navy)}
+.btn-ink:hover{background:var(--navy-3);transform:translateY(-1px)}
+
+/* ── CSS wordmark (replaces PNG extracts) ─────────────────────────── */
+.logo-txt{display:flex;flex-direction:column;line-height:1;gap:3.5px;overflow:hidden}
+.logo-name{font-family:var(--disp);font-weight:700;font-size:.98rem;letter-spacing:.15em;
+  color:#fff;text-transform:uppercase;white-space:nowrap}
+.logo-sub{font-family:var(--mono);font-size:.5rem;letter-spacing:.22em;
+  color:rgba(226,233,242,.46);text-transform:uppercase;white-space:nowrap}
+.hdr.solid .logo-name{font-size:.9rem}
+.ftr .logo-name{font-size:1.05rem;letter-spacing:.17em}
+.ftr .logo-sub{color:rgba(235,213,160,.48)}
+
+/* ── Vikas Arora lead card ─────────────────────────────────────────── */
+.lead-card{background:#fff;border:1px solid var(--line-l);border-radius:3px;
+  overflow:hidden;box-shadow:0 24px 60px -36px rgba(12,27,54,.55)}
+.lead-photo-wrap{position:relative;overflow:hidden}
+.lead-photo{width:100%;height:286px;object-fit:cover;object-position:center 6%;
+  display:block;background:#000}
+.lead-photo-grad{position:absolute;bottom:0;left:0;right:0;
+  background:linear-gradient(transparent 15%,rgba(5,16,40,.96));padding:56px 26px 22px}
+.lead-photo-role{font-family:var(--mono);font-size:.67rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--brass-hi);margin-bottom:9px}
+.lead-photo-name{font-family:var(--disp);font-weight:700;
+  font-size:clamp(1.45rem,2.1vw,1.85rem);letter-spacing:-.03em;color:#fff}
+.lead-bio{padding:clamp(20px,2.5vw,28px)}
+.lead-bio p{font-size:.94rem;color:var(--txt-l);margin-bottom:.85em;max-width:54ch}
+.lead-bio p:last-child{margin-bottom:0}
+.lead-bio .q{font-family:var(--quote);font-style:italic;font-size:1.06rem;line-height:1.54;
+  color:#0A1830;border-top:1px solid var(--line-l);margin-top:20px;padding-top:18px}
+
+/* ---------- header ---------- */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:120;transition:background .35s var(--e),box-shadow .35s var(--e),border-color .35s}
+.hdr::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--line-d);opacity:0;transition:opacity .35s}
+.hdr.solid{background:rgba(5,15,31,.9);backdrop-filter:saturate(150%) blur(14px);-webkit-backdrop-filter:saturate(150%) blur(14px)}
+.hdr.solid::after{opacity:1}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:22px;height:84px;transition:height .35s var(--e)}
+.hdr.solid .hdr-in{height:68px}
+
+.logo{display:flex;align-items:center;gap:12px}
+.logo img.mk{width:44px;height:44px;transition:width .35s var(--e),height .35s var(--e)}
+.hdr.solid .logo img.mk{width:37px;height:37px}
+
+
+
+.nav{display:flex;align-items:center;gap:clamp(16px,2.1vw,32px)}
+.nav a{font-size:.855rem;font-weight:500;color:rgba(226,233,242,.72);padding:8px 0;position:relative;transition:color .22s}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:2px;height:1px;background:var(--brass);transition:right .32s var(--e)}
+.nav a:hover,.nav a.active{color:#fff}
+.nav a:hover::after,.nav a.active::after{right:0}
+.hdr-cta{display:inline-flex}
+
+.burger{display:none;width:44px;height:44px;background:rgba(255,255,255,.04);border:1px solid var(--line-dd);border-radius:2px;position:relative}
+.burger span{position:absolute;left:12px;right:12px;height:1.5px;background:#EBD5A0;transition:transform .3s var(--e),opacity .2s}
+.burger span:nth-child(1){top:16px}
+.burger span:nth-child(2){bottom:16px}
+body.nav-open .burger span:nth-child(1){transform:translateY(5px) rotate(45deg)}
+body.nav-open .burger span:nth-child(2){transform:translateY(-5px) rotate(-45deg)}
+
+/* progress bar */
+.prog{position:absolute;left:0;bottom:0;height:2px;width:0;background:linear-gradient(90deg,var(--teal),var(--brass) 60%,var(--brass-hi));z-index:2}
+
+/* ---------- drawer ---------- */
+.drawer{
+  position:fixed;inset:0;z-index:110;background:linear-gradient(180deg,#050F1F,#0A1830);
+  padding:104px var(--gutter) 40px;display:flex;flex-direction:column;overflow-y:auto;
+  opacity:0;visibility:hidden;transform:translateY(-10px);
+  transition:opacity .3s var(--e),transform .38s var(--e),visibility .3s;
+}
+body.nav-open .drawer{opacity:1;visibility:visible;transform:none}
+.drawer a.dl{
+  font-family:var(--disp);font-weight:600;font-size:clamp(1.55rem,7vw,2rem);letter-spacing:-.03em;color:#EEF3F9;
+  padding:.55em 0;border-bottom:1px solid var(--line-dd);display:flex;align-items:baseline;gap:.75em;
+}
+.drawer a.dl .n{font-family:var(--mono);font-size:.66rem;color:var(--brass);letter-spacing:.12em;font-weight:400}
+.drawer .btn{margin-top:30px;justify-content:center}
+.drawer-foot{margin-top:auto;padding-top:34px;font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(235,213,160,.5)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;padding:calc(84px + clamp(52px,8vw,96px)) 0 0;
+  background:
+    radial-gradient(90% 80% at 82% 6%,rgba(194,150,62,.2),transparent 55%),
+    radial-gradient(70% 70% at 2% 96%,rgba(14,129,99,.2),transparent 60%),
+    
+    linear-gradient(170deg,#071429,#0A1730 55%,#050F1F);
+}
+.hero .arcbg{
+  position:absolute;top:-18%;right:-16%;width:min(78vw,860px);aspect-ratio:1;pointer-events:none;
+  border-radius:50%;border:1px solid rgba(235,213,160,.1);
+}
+.hero .arcbg::after{
+  content:"";position:absolute;inset:9%;border-radius:50%;
+  border:1px solid rgba(235,213,160,.07);
+}
+.hero-grid{
+  position:absolute;inset:0;pointer-events:none;opacity:.55;
+  background-image:linear-gradient(rgba(235,213,160,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(235,213,160,.055) 1px,transparent 1px);
+  background-size:clamp(64px,7vw,104px) clamp(64px,7vw,104px);
+  -webkit-mask-image:radial-gradient(130% 100% at 50% 0%,#000 28%,transparent 76%);
+  mask-image:radial-gradient(130% 100% at 50% 0%,#000 28%,transparent 76%);
+}
+.hero-in{position:relative;z-index:3;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(30px,5vw,80px);align-items:center;padding-bottom:clamp(52px,7vw,88px)}
+.hero h1{color:#fff}
+.hero h1 .thin{font-family:var(--quote);font-style:italic;font-weight:300;letter-spacing:-.01em;color:var(--brass-hi)}
+.hero .lede{margin-top:24px;max-width:50ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:34px;font-family:var(--mono);font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:rgba(226,233,242,.5)}
+.hero-meta span{display:inline-flex;align-items:center;gap:8px}
+.hero-meta i{width:5px;height:5px;border-radius:50%;background:var(--brass);font-style:normal}
+
+.emblem{position:relative;display:grid;place-items:center;max-width:420px;margin-inline:auto;width:100%;aspect-ratio:1}
+.emblem img{width:78%;height:auto;filter:drop-shadow(0 26px 60px rgba(0,0,0,.6))}
+.emblem .halo{position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle,rgba(194,150,62,.22),transparent 62%);animation:breathe 8s ease-in-out infinite}
+.emblem .spin{position:absolute;inset:-4%;border-radius:50%;border:1px dashed rgba(235,213,160,.22);animation:rot 60s linear infinite}
+@keyframes breathe{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:.5;transform:scale(1.06)}}
+@keyframes rot{to{transform:rotate(360deg)}}
+
+/* pillars */
+.pillars{position:relative;z-index:3;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-d)}
+.pil{padding:26px clamp(18px,2.4vw,32px) 26px 0;border-right:1px solid var(--line-dd);display:flex;gap:13px;align-items:flex-start}
+.pil:last-child{border-right:0}
+.pil + .pil{padding-left:clamp(18px,3vw,44px)}
+.pil i{width:9px;height:9px;border-radius:50%;margin-top:7px;flex:none;font-style:normal}
+.pil.a i{background:#7FA0D8;box-shadow:0 0 12px rgba(127,160,216,.6)}
+.pil.b i{background:var(--brass);box-shadow:0 0 12px rgba(194,150,62,.6)}
+.pil.c i{background:var(--teal-hi);box-shadow:0 0 12px rgba(43,176,139,.6)}
+.pil h4{font-family:var(--body);font-weight:600;font-size:.9rem;color:#fff;margin-bottom:4px;letter-spacing:0}
+.pil p{margin:0;font-size:.83rem;line-height:1.5;color:rgba(226,233,242,.55)}
+
+/* ---------- metrics ---------- */
+.metrics{background:linear-gradient(180deg,#050F1F,#081527);border-top:1px solid var(--line-dd);border-bottom:1px solid var(--line-dd);position:relative}
+.metrics-in{display:grid;grid-template-columns:repeat(4,1fr)}
+.mt{padding:clamp(34px,4.4vw,52px) clamp(18px,2.5vw,38px);border-right:1px solid var(--line-dd);position:relative}
+.mt:first-child{padding-left:0}
+.mt:last-child{border-right:0;padding-right:0}
+.mt .v{font-family:var(--disp);font-weight:700;font-size:clamp(2.3rem,4.4vw,3.5rem);line-height:1;letter-spacing:-.04em;
+  background:linear-gradient(160deg,#FBF3DF,#C2963E 70%);-webkit-background-clip:text;background-clip:text;color:transparent;display:flex;align-items:baseline}
+.mt .v em{font-style:normal;font-size:.46em;margin-left:2px}
+.mt .l{font-family:var(--mono);font-size:.685rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(226,233,242,.52);margin-top:15px;line-height:1.65}
+
+/* ---------- sections ---------- */
+.sect{padding:var(--sect) 0;position:relative}
+.on-light{background:var(--parch);color:#141B26}
+.on-light h1,.on-light h2,.on-light h3{color:#0C1B36}
+.dark-2{background:linear-gradient(180deg,#071429,#0A1830)}
+.head{max-width:64ch;margin-bottom:clamp(42px,5vw,66px)}
+.head p{margin-top:18px}
+.rule{height:1px;background:linear-gradient(90deg,var(--brass),rgba(194,150,62,.05));width:74px;margin-bottom:26px}
+
+/* ---------- firm ---------- */
+.firm{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(34px,5vw,76px);align-items:start}
+.firm-body p{color:var(--txt-l);max-width:58ch}
+.firm-body strong{color:#0C1B36;font-weight:600}
+.lead-card{background:#fff;border:1px solid var(--line-l);border-radius:3px;overflow:hidden;box-shadow:0 24px 60px -40px rgba(12,27,54,.5)}
+.lead-top{background:linear-gradient(140deg,#0C1B36,#132B4E);padding:clamp(26px,3vw,34px);position:relative;overflow:hidden}
+.lead-top::after{content:"";position:absolute;right:-40px;top:-40px;width:170px;height:170px;border-radius:50%;border:14px solid rgba(194,150,62,.16);border-right-color:transparent;border-bottom-color:transparent}
+.lead-top .role{font-family:var(--mono);font-size:.67rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-hi)}
+.lead-top .nm{font-family:var(--disp);font-weight:600;font-size:clamp(1.6rem,2.5vw,2.05rem);letter-spacing:-.03em;color:#fff;margin-top:10px}
+.lead-top .tt{font-size:.9rem;color:rgba(226,233,242,.66);margin-top:6px}
+.lead-body{padding:clamp(24px,3vw,32px)}
+.lead-body p{font-size:.95rem;color:var(--txt-l);margin:0}
+.lead-body .q{font-family:var(--quote);font-style:italic;font-size:1.1rem;line-height:1.55;color:#0C1B36;border-top:1px solid var(--line-l);margin-top:22px;padding-top:20px}
+.whowith{margin-top:26px;border-top:1px solid var(--line-l)}
+.whowith div{display:flex;justify-content:space-between;gap:18px;padding:14px 0;border-bottom:1px solid var(--line-l);font-size:.92rem}
+.whowith span:last-child{font-family:var(--mono);font-size:.655rem;letter-spacing:.12em;text-transform:uppercase;color:#8A8271;align-self:center;text-align:right}
+
+/* ---------- services ---------- */
+.svcs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.svc{
+  position:relative;padding:clamp(28px,3vw,38px);border-radius:3px;overflow:hidden;
+  background:linear-gradient(165deg,rgba(255,255,255,.055),rgba(255,255,255,.014));
+  border:1px solid var(--line-dd);
+  transition:transform .4s var(--e),border-color .4s var(--e),background .4s var(--e),box-shadow .4s var(--e);
+}
+.svc::before{content:"";position:absolute;left:0;top:0;height:2px;width:100%;transform:scaleX(0);transform-origin:left;
+  background:linear-gradient(90deg,var(--brass-hi),var(--brass) 60%,transparent);transition:transform .5s var(--e)}
+.svc:hover{transform:translateY(-4px);border-color:rgba(235,213,160,.28);background:linear-gradient(165deg,rgba(235,213,160,.09),rgba(255,255,255,.02));box-shadow:0 26px 50px -30px rgba(0,0,0,.9)}
+.svc:hover::before{transform:scaleX(1)}
+.svc .ico{
+  width:52px;height:52px;border-radius:3px;display:grid;place-items:center;margin-bottom:24px;
+  background:linear-gradient(150deg,rgba(235,213,160,.16),rgba(194,150,62,.04));border:1px solid rgba(235,213,160,.2);
+  color:var(--brass-hi);transition:color .35s,border-color .35s,background .35s;
+}
+.svc:hover .ico{background:linear-gradient(150deg,rgba(235,213,160,.28),rgba(194,150,62,.08));border-color:rgba(235,213,160,.4)}
+.svc .ico svg{width:24px;height:24px}
+.svc h3{color:#fff;margin-bottom:11px}
+.svc p{font-size:.925rem;color:rgba(226,233,242,.66);margin:0}
+.svc ul{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.svc li{font-family:var(--mono);font-size:.655rem;letter-spacing:.07em;color:rgba(235,213,160,.72);border:1px solid rgba(235,213,160,.2);border-radius:999px;padding:3.5px 10px}
+
+/* ---------- marquee ---------- */
+.marq{position:relative;overflow:hidden;border-top:1px solid var(--line-dd);border-bottom:1px solid var(--line-dd);background:rgba(255,255,255,.018);padding:18px 0}
+.marq::before,.marq::after{content:"";position:absolute;top:0;bottom:0;width:14%;z-index:2;pointer-events:none}
+.marq::before{left:0;background:linear-gradient(90deg,#071429,transparent)}
+.marq::after{right:0;background:linear-gradient(270deg,#071429,transparent)}
+.marq-track{display:flex;gap:0;width:max-content;animation:slide 46s linear infinite}
+.marq:hover .marq-track{animation-play-state:paused}
+.marq-track span{font-family:var(--mono);font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(226,233,242,.62);padding:0 30px;display:inline-flex;align-items:center;gap:30px;white-space:nowrap}
+.marq-track span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--brass);opacity:.75}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* ---------- approach ---------- */
+.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line-l)}
+.stg{padding:clamp(28px,3vw,40px) clamp(18px,2vw,30px) clamp(30px,3.4vw,44px) 0;border-right:1px solid var(--line-l);position:relative}
+.stg:last-child{border-right:0}
+.stg + .stg{padding-left:clamp(18px,2vw,30px)}
+.stg::before{content:"";position:absolute;top:-1px;left:0;width:0;height:2px;background:var(--brass);transition:width .6s var(--e)}
+.stg.in::before{width:60%}
+.stg .n{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;color:var(--brass-lo);margin-bottom:22px}
+.stg h3{margin-bottom:12px}
+.stg p{font-size:.91rem;color:var(--txt-l);margin:0}
+
+/* ---------- investments ---------- */
+.inv{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(34px,5vw,76px);align-items:start}
+.panel{background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(255,255,255,.012));border:1px solid var(--line-dd);border-radius:3px;padding:clamp(26px,3vw,36px)}
+.panel h3{color:#fff;margin-bottom:8px}
+.rows{margin-top:20px;border-top:1px solid var(--line-dd)}
+.rows div{display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid var(--line-dd);font-size:.93rem}
+.rows span:first-child{color:#EAF0F7}
+.rows span:last-child{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(235,213,160,.6);text-align:right;align-self:center}
+.sectors{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:8px}
+.sec{border:1px solid var(--line-dd);border-radius:3px;padding:20px;display:flex;align-items:center;gap:13px;transition:border-color .3s,background .3s}
+.sec:hover{border-color:rgba(235,213,160,.3);background:rgba(235,213,160,.05)}
+.sec svg{width:20px;height:20px;color:var(--brass-hi);flex:none}
+.sec b{font-weight:600;font-size:.94rem;color:#fff;display:block}
+.sec small{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(226,233,242,.45)}
+
+/* ---------- cta band ---------- */
+.band{position:relative;overflow:hidden;background:linear-gradient(120deg,#0C1B36,#16305A 55%,#0C1B36)}
+.band::after{content:"";position:absolute;right:-6%;top:-70%;width:520px;height:520px;border-radius:50%;
+  border:22px solid rgba(194,150,62,.14);border-right-color:transparent;border-bottom-color:transparent;pointer-events:none}
+.band-in{position:relative;z-index:2;padding:clamp(52px,6.5vw,86px) 0;display:flex;flex-wrap:wrap;gap:30px;align-items:center;justify-content:space-between}
+.band h2{max-width:22ch;color:#fff}
+.band p{margin:14px 0 0;color:rgba(226,233,242,.65);max-width:46ch}
+
+/* ---------- contact ---------- */
+.ct{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:clamp(34px,5vw,76px);align-items:start}
+.ct dl{margin:26px 0 0;border-top:1px solid var(--line-l)}
+.ct dt{font-family:var(--mono);font-size:.655rem;letter-spacing:.16em;text-transform:uppercase;color:#8A8271;padding-top:17px}
+.ct dd{margin:5px 0 17px;font-size:.98rem;border-bottom:1px solid var(--line-l);padding-bottom:17px;color:#141B26}
+.ct dd a{border-bottom:1px solid var(--brass);transition:color .2s}
+.ct dd a:hover{color:var(--brass-lo)}
+
+form{background:#fff;border:1px solid var(--line-l);border-radius:3px;padding:clamp(24px,3vw,38px);box-shadow:0 24px 60px -44px rgba(12,27,54,.55)}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fld{display:flex;flex-direction:column;gap:7px}
+.fld.full{grid-column:1/-1}
+label{font-family:var(--mono);font-size:.645rem;letter-spacing:.15em;text-transform:uppercase;color:#6C7382}
+label .r{color:var(--brass-lo)}
+input,select,textarea{
+  font:inherit;font-size:.94rem;color:#0C1B36;background:#F8F7F4;border:1px solid var(--line-l);
+  border-radius:2px;padding:.75em .85em;width:100%;transition:border-color .2s,background .2s,box-shadow .2s;
+}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brass);background:#fff;box-shadow:0 0 0 3px rgba(194,150,62,.13)}
+textarea{resize:vertical;min-height:106px}
+select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236C7382' stroke-width='1.4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.ff{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-top:22px}
+.note{font-size:.78rem;color:#6C7382;max-width:36ch;margin:0}
+.msg{margin-top:16px;font-size:.88rem;padding:12px 14px;border-radius:2px;display:none}
+.msg.ok{display:block;background:rgba(14,129,99,.1);border:1px solid rgba(14,129,99,.3);color:#0A5F49}
+.msg.err{display:block;background:rgba(194,150,62,.12);border:1px solid rgba(194,150,62,.4);color:#7A5A16}
+.hp{position:absolute;left:-9999px}
+
+/* ---------- footer ---------- */
+.ftr{background:#040D1B;padding:clamp(54px,6vw,80px) 0 30px;color:rgba(226,233,242,.6);border-top:1px solid var(--line-dd)}
+.ftr-top{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(0,1fr));gap:clamp(28px,4vw,58px);padding-bottom:44px;border-bottom:1px solid var(--line-dd)}
+.ftr .logo{margin-bottom:20px}
+.ftr .logo img.mk{width:50px;height:50px}
+.ftr p{font-size:.9rem;max-width:42ch}
+.ftr h5{font-family:var(--mono);font-size:.655rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(235,213,160,.55);margin:0 0 16px;font-weight:400}
+.ftr ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.ftr ul a{font-size:.89rem;color:rgba(226,233,242,.78);transition:color .2s}
+.ftr ul a:hover{color:var(--brass-hi)}
+.ftr-bot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding-top:26px;font-family:var(--mono);font-size:.655rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(226,233,242,.38)}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(20px);transition:opacity .75s var(--e),transform .75s var(--e)}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- responsive ---------- */
+@media (max-width:1040px){
+  .hero-in{grid-template-columns:1fr;gap:34px;padding-bottom:52px}
+  .emblem{max-width:230px;order:-1;margin:0}
+  .firm,.inv,.ct{grid-template-columns:1fr}
+  .metrics-in{grid-template-columns:1fr 1fr}
+  .mt{padding-inline:0 clamp(18px,3vw,34px)}
+  .mt:nth-child(2n){border-right:0;padding-right:0}
+  .mt:nth-child(n+3){border-top:1px solid var(--line-dd)}
+  .stages{grid-template-columns:1fr 1fr}
+  .stg:nth-child(2n){border-right:0}
+  .stg:nth-child(n+3){border-top:1px solid var(--line-l)}
+  .stg:nth-child(2n+1){padding-left:0}
+}
+@media (max-width:880px){
+  .nav,.hdr-cta{display:none}
+  .burger{display:block}
+  .pillars{grid-template-columns:1fr}
+  .pil{border-right:0;border-bottom:1px solid var(--line-dd);padding:20px 0}
+  .pil:last-child{border-bottom:0}
+  .pil + .pil{padding-left:0}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  .emblem{max-width:180px}
+  .fg,.stages,.sectors{grid-template-columns:1fr}
+  .stg{border-right:0;border-top:1px solid var(--line-l);padding:26px 0}
+  .stg:first-child{border-top:0}
+  .stg + .stg{padding-left:0}
+  .ftr-top{grid-template-columns:1fr;gap:32px}
+  .band-in{flex-direction:column;align-items:flex-start}
+  .hero-cta .btn{flex:1 1 100%;justify-content:center}
+
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition-duration:.001ms!important}
+  .rv{opacity:1;transform:none}
+}
+@media print{.hdr,.drawer{display:none}body{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#top" aria-label="Zeka BIR Tech Solutions — home">
+      <img class="mk" src="assets/mark.png" alt="" width="44" height="44" />
+      <span class="logo-txt"><span class="logo-name">ZEKA BIR</span><span class="logo-sub">TECH SOLUTIONS PVT. LTD.</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#firm">Firm</a>
+      <a href="#services">Services</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#approach">Approach</a>
+      <a href="#investments">Investments</a>
+    </nav>
+    <a class="btn btn-gold hdr-cta" href="#contact">Request a conversation <span class="arw">→</span></a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+  </div>
+  <div class="prog" id="prog"></div>
+</header>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <a class="dl" href="#firm"><span class="n">01</span> Firm</a>
+  <a class="dl" href="#services"><span class="n">02</span> Services</a>
+  <a class="dl" href="#expertise"><span class="n">03</span> Expertise</a>
+  <a class="dl" href="#approach"><span class="n">04</span> Approach</a>
+  <a class="dl" href="#investments"><span class="n">05</span> Investments</a>
+  <a class="btn btn-gold" href="#contact">Request a conversation <span class="arw">→</span></a>
+  <div class="drawer-foot">Business Intelligence and Resilience</div>
+</div>
+
+<main id="main"><span id="top"></span>
+
+<!-- HERO -->
+<section class="hero grain">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="arcbg" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div>
+      <p class="kicker">Business Intelligence and Resilience</p>
+      <h1>Strategic advisory for <span class="thin">lending</span> and technology businesses.</h1>
+      <p class="lede">Zeka BIR works with promoters, boards and CXOs on growth strategy, lending programmes, operating models and capital readiness across FinTech, NBFC, MSME lending and technology.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#contact">Request a conversation <span class="arw">→</span></a>
+        <a class="btn btn-line" href="#services">View our services</a>
+      </div>
+      <div class="hero-meta">
+        <span><i></i> Founded and led by Vikas Arora</span>
+        <span><i></i> India</span>
+      </div>
+    </div>
+    <div class="emblem" aria-hidden="true">
+      <div class="halo"></div>
+      <div class="spin"></div>
+      <img src="assets/mark.png" alt="" />
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="pillars">
+      <div class="pil a"><i></i><div><h4>BI &amp; Analytics</h4><p>Market sizing, portfolio reads and the numbers behind each decision.</p></div></div>
+      <div class="pil b"><i></i><div><h4>Financing</h4><p>Lending programmes, working capital structures and capital raising.</p></div></div>
+      <div class="pil c"><i></i><div><h4>Technology</h4><p>Digital infrastructure and platforms that hold up as volumes grow.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- METRICS -->
+<section class="metrics" aria-label="Track record">
+  <div class="wrap metrics-in">
+    <div class="mt"><div class="v" data-count="15" data-suffix="+">0</div><div class="l">Early-stage ventures backed</div></div>
+    <div class="mt"><div class="v" data-count="50" data-suffix="%+">0</div><div class="l">Portfolio raised Series A or B</div></div>
+    <div class="mt"><div class="v" data-count="5" data-suffix="">0</div><div class="l">Advisory mandates running now</div></div>
+    <div class="mt"><div class="v" data-count="4" data-suffix="">0</div><div class="l">Sectors covered: AI, FinTech, SaaS, Digital infrastructure</div></div>
+  </div>
+</section>
+
+<!-- FIRM -->
+<section class="sect on-light" id="firm">
+  <div class="wrap firm">
+    <div class="firm-body rv">
+      <div class="rule"></div>
+      <p class="kicker">About the firm</p>
+      <h2>A strategic advisory and business growth platform.</h2>
+      <p class="lede" style="margin-top:20px">Zeka BIR drives scalable growth, operational transformation and strategic execution across the FinTech, NBFC, MSME lending and technology ecosystems.</p>
+      <p>The firm works with <strong>startups, financial institutions and growth-stage businesses</strong> to strengthen market positioning, expand operations, build scalable business models and accelerate sustainable growth. Engagements cover business transformation, operating models, growth strategy, partnerships, stakeholder management, sales enablement and operational scalability.</p>
+      <p>Alongside advisory, Zeka BIR invests in early-stage companies and takes an active role in business building, strategic execution and market expansion for its portfolio.</p>
+      <p style="margin-bottom:0">Its focus is long-term value creation through institutional growth, scalable lending ecosystems and technology-led business innovation.</p>
+    </div>
+
+    <div class="rv">
+      <div class="lead-card">
+        <div class="lead-photo-wrap">
+          <img class="lead-photo" src="assets/vikas-arora.jpg"
+               alt="Vikas Arora, Founder &amp; Principal, Zeka BIR Tech Solutions"
+               loading="lazy" />
+          <div class="lead-photo-grad">
+            <div class="lead-photo-role">Founder &amp; Principal</div>
+            <div class="lead-photo-name">Vikas Arora</div>
+          </div>
+        </div>
+        <div class="lead-bio">
+          <p>Zeka BIR is led by Vikas Arora, with deep expertise in institutional lending, MSME finance, supply chain finance, working capital solutions and technology-driven financial services.</p>
+          <p class="q">Every engagement starts with the numbers and ends with something running in the business.</p>
+        </div>
+      </div>
+      <div class="whowith">
+        <div><span>Promoters and boards</span><span>MSME, growth-stage</span></div>
+        <div><span>NBFCs and lenders</span><span>Institutional lending</span></div>
+        <div><span>FinTech founders</span><span>Seed to Series B</span></div>
+        <div><span>Technology businesses</span><span>SaaS, AI, digital infra</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sect dark-2 grain" id="services">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="rule"></div>
+      <p class="kicker">Services</p>
+      <h2>What we do.</h2>
+      <p class="lede">Six areas of work. Each one is scoped to a decision the business is already facing, and carried through to execution.</p>
+    </div>
+    <div class="svcs">
+      <article class="svc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12h4"/><path d="M10 8h4"/><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"/><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/></svg></div>
+        <h3>Mortgage Lending</h3>
+        <p>Building and scaling secured lending businesses: product construct, credit policy, sourcing channels, collections discipline and portfolio quality across LAP and mortgage books.</p>
+        <ul><li>Credit policy</li><li>Sourcing</li><li>Portfolio quality</li></ul>
+      </article>
+
+      <article class="svc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg></div>
+        <h3>Financial Advisory</h3>
+        <p>Capital structure, debt and equity readiness, lender and investor conversations, and support through the transaction so the raise closes on the terms the business needs.</p>
+        <ul><li>Fundraising readiness</li><li>Capital structure</li><li>Deal support</li></ul>
+      </article>
+
+      <article class="svc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg></div>
+        <h3>Business Consulting</h3>
+        <p>Operating models, market expansion, partnerships, sales enablement and organisation design, so the business can take on more volume without losing control of what already works.</p>
+        <ul><li>Operating model</li><li>Market expansion</li><li>Partnerships</li></ul>
+      </article>
+
+      <article class="svc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M8 18v-1"/><path d="M12 18v-6"/><path d="M16 18v-3"/></svg></div>
+        <h3>Financial Planning</h3>
+        <p>Forecasting, unit economics, capital allocation and reporting. Business plans built on assumptions that hold, and an MIS the board and the lenders can both work from.</p>
+        <ul><li>Forecasting</li><li>Unit economics</li><li>MIS and reporting</li></ul>
+      </article>
+
+      <article class="svc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg></div>
+        <h3>Leadership Development</h3>
+        <p>Building the management layer between the promoter and the business: CXO capability, governance rhythm, stakeholder management and succession planning that survives scale.</p>
+        <ul><li>CXO capability</li><li>Governance</li><li>Succession</li></ul>
+      </article>
+
+      <article class="svc rv">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3"/><path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4"/><path d="M5 21h14"/></svg></div>
+        <h3>Investment &amp; Venture Building</h3>
+        <p>Early-stage capital for companies in AI, FinTech, SaaS and digital infrastructure, followed by hands-on work on market intelligence, PR positioning, partnerships and operational scaling.</p>
+        <ul><li>Seed capital</li><li>Venture building</li><li>Scale support</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERTISE -->
+<section class="sect grain" id="expertise" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="head rv" style="max-width:56ch">
+      <div class="rule"></div>
+      <p class="kicker">Expertise</p>
+      <h2>Where the depth sits.</h2>
+      <p class="lede">Institutional lending, MSME finance, supply chain finance, working capital and technology-driven financial services: domains where credit, structure and technology have to be solved at the same time.</p>
+    </div>
+  </div>
+  <div class="marq" style="margin-top:clamp(20px,3vw,34px)">
+    <div class="marq-track" id="marq">
+      <span>Institutional lending</span><span>MSME finance</span><span>Supply chain finance</span><span>Working capital</span><span>Co-lending &amp; partnerships</span><span>Technology-driven financial services</span><span>Business transformation</span><span>Operating models</span><span>Growth strategy</span><span>Stakeholder management</span><span>Sales enablement</span><span>Operational scalability</span><span>Market intelligence</span><span>PR positioning</span><span>Fundraising readiness</span>
+    </div>
+  </div>
+  <div style="height:clamp(60px,7vw,100px)"></div>
+</section>
+
+<!-- APPROACH -->
+<section class="sect on-light" id="approach">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="rule"></div>
+      <p class="kicker">Approach</p>
+      <h2>How an engagement runs.</h2>
+      <p class="lede">Four stages, in order. Most of the work sits in the last two.</p>
+    </div>
+    <div class="stages">
+      <div class="stg rv"><div class="n">STAGE 01</div><h3>Assess</h3><p>A close read of economics, portfolio, channels, organisation and systems, to separate a growth problem from a structural one and put numbers against both.</p></div>
+      <div class="stg rv"><div class="n">STAGE 02</div><h3>Plan</h3><p>The operating model, product construct and capital plan that follow from the assessment, agreed with the promoter and sequenced against available cash.</p></div>
+      <div class="stg rv"><div class="n">STAGE 03</div><h3>Execute</h3><p>Working alongside your team to open partnerships, launch lending programmes, install the sales motion and set a reporting cadence that holds.</p></div>
+      <div class="stg rv"><div class="n">STAGE 04</div><h3>Institutionalise</h3><p>Handover into governance: leadership capability, MIS, controls and an investor-grade narrative, so the business runs and raises without external support.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- INVESTMENTS -->
+<section class="sect dark-2 grain" id="investments">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="rule"></div>
+      <p class="kicker">Investments &amp; portfolio</p>
+      <h2>More than 15 ventures backed. Over half have raised Series A or B.</h2>
+      <p class="lede">Capital is the starting point. Zeka BIR stays involved in business building, strategic execution, market expansion and long-term growth for its portfolio companies.</p>
+    </div>
+    <div class="inv">
+      <div class="rv">
+        <div class="panel">
+          <h3>What portfolio companies get</h3>
+          <div class="rows">
+            <div><span>Market intelligence</span><span>Sizing &amp; positioning</span></div>
+            <div><span>Fundraising readiness</span><span>Data room to term sheet</span></div>
+            <div><span>Strategic partnerships</span><span>Lenders &amp; platforms</span></div>
+            <div><span>PR positioning</span><span>Narrative &amp; visibility</span></div>
+            <div><span>Operational scaling</span><span>Process &amp; organisation</span></div>
+            <div><span>Innovation-led growth</span><span>New revenue lines</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="rv">
+        <p class="kicker">Sectors we evaluate</p>
+        <div class="sectors">
+          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16v5"/><path d="M16 14.639V21"/><path d="M20 10.656V21"/><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"/><path d="M4 18.463V21"/><path d="M8 14.656V21"/></svg><div><b>AI</b><small>Applied &amp; infrastructure</small></div></div>
+          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg><div><b>FinTech</b><small>Lending &amp; payments</small></div></div>
+          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg><div><b>SaaS</b><small>B2B software</small></div></div>
+          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg><div><b>Digital infrastructure</b><small>Rails &amp; platforms</small></div></div>
+        </div>
+        <p style="margin-top:22px;font-size:.9rem;color:rgba(226,233,242,.6)">Advisory mandates currently run across NBFCs, FinTech platforms, MSME lenders and technology businesses. Client references are shared on request.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="band grain">
+  <div class="wrap band-in">
+    <div class="rv">
+      <h2>Start with a conversation about the business.</h2>
+      <p>Share where things stand today and what you are trying to change. We come back with a view before we come back with a proposal.</p>
+    </div>
+    <a class="btn btn-gold rv" href="#contact">Request a conversation <span class="arw">→</span></a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sect on-light" id="contact">
+  <div class="wrap ct">
+    <div class="rv">
+      <div class="rule"></div>
+      <p class="kicker">Contact</p>
+      <h2>Get in touch.</h2>
+      <p class="lede" style="margin-top:18px">Write to us with a short note on the business and the decision in front of you. We reply within two working days.</p>
+      <dl>
+        <dt>Email</dt><dd><a href="mailto:founder@zekabir.com">founder@zekabir.com</a></dd>
+        <dt>Phone</dt><dd><a href="tel:+919999999999">+91 99999 99999</a></dd>
+        <dt>Office</dt><dd>Zeka BIR Tech Solutions Pvt. Ltd.<br />Regal Building, 1st Floor<br />Parliament Street (Sansad Marg)<br />Connaught Place, New Delhi – 110001</dd>
+      </dl>
+    </div>
+
+    <form id="cform" novalidate class="rv">
+      <div class="fg">
+        <div class="fld"><label for="f-name">Name <span class="r">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required /></div>
+        <div class="fld"><label for="f-org">Company <span class="r">*</span></label><input id="f-org" name="company" type="text" autocomplete="organization" required /></div>
+        <div class="fld"><label for="f-role">Your role</label><input id="f-role" name="role" type="text" placeholder="Promoter, Director, CXO" autocomplete="organization-title" /></div>
+        <div class="fld"><label for="f-email">Email <span class="r">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required /></div>
+        <div class="fld"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" /></div>
+        <div class="fld"><label for="f-int">Area of interest</label>
+          <select id="f-int" name="interest">
+            <option>Mortgage lending</option><option>Financial advisory</option><option>Business consulting</option>
+            <option>Financial planning</option><option>Leadership development</option><option>Investment / venture building</option><option>Something else</option>
+          </select>
+        </div>
+        <div class="fld full"><label for="f-msg">Brief context <span class="r">*</span></label><textarea id="f-msg" name="message" required placeholder="Where the business is today and what you are trying to change."></textarea></div>
+      </div>
+      <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <div class="ff">
+        <p class="note">Everything you share stays confidential.</p>
+        <button class="btn btn-ink" type="submit" id="submit">Send enquiry <span class="arw">→</span></button>
+      </div>
+      <div class="msg" id="fmsg" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div>
+        <a class="logo" href="#top" aria-label="Zeka BIR — home">
+          <img class="mk" src="assets/mark.png" alt="" width="44" height="44" />
+          <span class="logo-txt"><span class="logo-name">ZEKA BIR</span><span class="logo-sub">TECH SOLUTIONS PVT. LTD.</span></span>
+        </a>
+        <p>Business Intelligence and Resilience. Strategic advisory, investment and business building across FinTech, NBFC, MSME lending and technology.</p>
+      </div>
+      <div>
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="#firm">Firm</a></li><li><a href="#services">Services</a></li>
+          <li><a href="#expertise">Expertise</a></li><li><a href="#approach">Approach</a></li>
+          <li><a href="#investments">Investments</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <ul>
+          <li><a href="mailto:founder@zekabir.com">founder@zekabir.com</a></li>
+          <li><a href="tel:+919999999999">+91 99999 99999</a></li>
+          <li><a href="#contact">Enquiry form</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>© <span id="yr">2026</span> Zeka BIR Tech Solutions Pvt. Ltd.</span>
+      <span>All rights reserved</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.getElementById("yr").textContent = new Date().getFullYear();
+
+  /* header + progress bar */
+  var hdr = document.getElementById("hdr"), prog = document.getElementById("prog"), tick = false;
+  function onScroll(){
+    var y = window.scrollY || document.documentElement.scrollTop;
+    hdr.classList.toggle("solid", y > 20);
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    prog.style.width = (h > 0 ? Math.min(y/h,1)*100 : 0) + "%";
+    tick = false;
+  }
+  window.addEventListener("scroll", function(){ if(!tick){ requestAnimationFrame(onScroll); tick = true; } }, {passive:true});
+  onScroll();
+
+  /* drawer */
+  var burger = document.getElementById("burger"), drawer = document.getElementById("drawer");
+  function setNav(o){
+    document.body.classList.toggle("nav-open", o);
+    burger.setAttribute("aria-expanded", o ? "true":"false");
+    burger.setAttribute("aria-label", o ? "Close menu":"Open menu");
+  }
+  burger.addEventListener("click", function(){ setNav(!document.body.classList.contains("nav-open")); });
+  drawer.addEventListener("click", function(e){ if(e.target.closest("a")) setNav(false); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") setNav(false); });
+  window.addEventListener("resize", function(){ if(window.innerWidth > 880) setNav(false); });
+
+  /* duplicate marquee content for a seamless loop */
+  var mq = document.getElementById("marq");
+  if(mq && !reduce) mq.innerHTML += mq.innerHTML;
+
+  /* reveal + stagger */
+  var rv = document.querySelectorAll(".rv, .stg");
+  if(reduce || !("IntersectionObserver" in window)){
+    rv.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(!en.isIntersecting) return;
+        var sib = Array.prototype.filter.call(en.target.parentNode.children, function(c){ return c.classList.contains("rv") || c.classList.contains("stg"); });
+        en.target.style.transitionDelay = (Math.min(sib.indexOf(en.target),5) * 80) + "ms";
+        en.target.classList.add("in");
+        io.unobserve(en.target);
+      });
+    }, {rootMargin:"0px 0px -8% 0px", threshold:.08});
+    rv.forEach(function(el){ io.observe(el); });
+  }
+
+  /* counters */
+  var nums = document.querySelectorAll("[data-count]");
+  function run(el){
+    var target = parseInt(el.getAttribute("data-count"),10), sfx = el.getAttribute("data-suffix") || "";
+    if(reduce){ el.innerHTML = target + (sfx ? "<em>"+sfx+"</em>" : ""); return; }
+    var t0 = null, dur = 1300;
+    function step(ts){
+      if(!t0) t0 = ts;
+      var p = Math.min((ts-t0)/dur,1), eased = 1-Math.pow(1-p,3);
+      el.innerHTML = Math.round(target*eased) + (sfx ? "<em>"+sfx+"</em>" : "");
+      if(p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  if("IntersectionObserver" in window){
+    var co = new IntersectionObserver(function(es){
+      es.forEach(function(en){ if(en.isIntersecting){ run(en.target); co.unobserve(en.target); } });
+    }, {threshold:.5});
+    nums.forEach(function(n){ co.observe(n); });
+  } else { nums.forEach(run); }
+
+  /* active nav */
+  var links = [].slice.call(document.querySelectorAll(".nav a"));
+  var secs = links.map(function(a){ return document.querySelector(a.getAttribute("href")); }).filter(Boolean);
+  if("IntersectionObserver" in window && secs.length){
+    var so = new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(en.isIntersecting) links.forEach(function(a){ a.classList.toggle("active", a.getAttribute("href") === "#"+en.target.id); });
+      });
+    }, {rootMargin:"-45% 0px -50% 0px"});
+    secs.forEach(function(s){ so.observe(s); });
+  }
+
+  /* -----------------------------------------------------------
+     CONTACT FORM
+     Set ENDPOINT to your form service URL (Formspree, Basin,
+     Netlify Forms, or your own API). Left empty, the form opens
+     the visitor's mail client with the enquiry pre-filled.
+     ----------------------------------------------------------- */
+  var ENDPOINT = "";
+  var MAILTO = "founder@zekabir.com";
+
+  var form = document.getElementById("cform"), msg = document.getElementById("fmsg"), btn = document.getElementById("submit");
+  function show(k,t){ msg.className = "msg "+k; msg.textContent = t; }
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    if(form._gotcha.value) return;
+    var req = ["name","company","email","message"];
+    for(var i=0;i<req.length;i++){
+      var f = form.elements[req[i]];
+      if(!f.value.trim()){ show("err","Add your "+req[i]+" so we can respond."); f.focus(); return; }
+    }
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(form.elements.email.value)){
+      show("err","That email address doesn't look right. Check it and send again."); form.elements.email.focus(); return;
+    }
+    var data = {};
+    new FormData(form).forEach(function(v,k){ if(k !== "_gotcha") data[k] = v; });
+
+    if(!ENDPOINT){
+      var body = Object.keys(data).map(function(k){ return k.toUpperCase()+": "+data[k]; }).join("\n");
+      window.location.href = "mailto:"+MAILTO+"?subject="+encodeURIComponent("Enquiry from "+data.name+" — "+data.company)+"&body="+encodeURIComponent(body);
+      show("ok","Opening your email app with the enquiry ready to send.");
+      return;
+    }
+    btn.disabled = true;
+    var label = btn.innerHTML; btn.textContent = "Sending…";
+    fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); form.reset(); show("ok","Enquiry received. We'll reply within two working days."); })
+      .catch(function(){ show("err","That didn't send. Email us directly at "+MAILTO+"."); })
+      .finally(function(){ btn.disabled = false; btn.innerHTML = label; });
+  });
+})();
+</script>
+</body>
+</html>
