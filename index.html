@@ -3,442 +3,437 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Zeka BIR Tech Solutions — Strategic advisory for lending and technology businesses</title>
-<meta name="description" content="Zeka BIR is a strategic advisory and business growth platform working with promoters, boards and CXOs across FinTech, NBFC, MSME lending and technology." />
-<meta name="theme-color" content="#050F1F" />
+<title>Zeka BIR Tech Solutions — Strategic debt for fast-growing businesses</title>
+<meta name="description" content="Zeka BIR helps fast-growing businesses raise strategic debt. Two decades in lending, trade finance and supply chain finance, with 30+ deep lender partnerships." />
+<meta name="theme-color" content="#FFFFFF" />
 <link rel="canonical" href="https://www.zekabir.com/" />
-
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Zeka BIR Tech Solutions Pvt. Ltd." />
 <meta property="og:title" content="Zeka BIR Tech Solutions" />
-<meta property="og:description" content="Strategic advisory and business growth across FinTech, NBFC, MSME lending and technology." />
+<meta property="og:description" content="We help fast-growing businesses raise strategic debt. Two decades in lending, trade finance and supply chain finance." />
 <meta property="og:url" content="https://www.zekabir.com/" />
 <meta property="og:image" content="https://www.zekabir.com/og-image.png" />
 <meta name="twitter:card" content="summary_large_image" />
-
 <link rel="icon" href="favicon.png" type="image/png" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Newsreader:ital,wght@1,300;1,400&display=swap" rel="stylesheet" />
-
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap" rel="stylesheet" />
 <script type="application/ld+json">
-{
-  "@context":"https://schema.org","@type":"ProfessionalService",
-  "name":"Zeka BIR Tech Solutions Pvt. Ltd.","alternateName":"Zeka BIR",
-  "url":"https://www.zekabir.com/","slogan":"Business Intelligence and Resilience",
-  "description":"Strategic advisory and business growth platform focused on FinTech, NBFC, MSME lending and technology ecosystems.",
-  "areaServed":"IN","founder":{"@type":"Person","name":"Vikas Arora"},
-  "knowsAbout":["MSME lending","Supply chain finance","Working capital","NBFC strategy","FinTech","Mortgage lending","Fundraising readiness"]
-}
+{"@context":"https://schema.org","@type":"FinancialService","name":"Zeka BIR Tech Solutions Pvt. Ltd.","alternateName":"Zeka BIR","url":"https://www.zekabir.com/","slogan":"Business Intelligence and Resilience","description":"Advisory platform helping fast-growing businesses raise strategic debt, with two decades of experience in lending, trade finance and supply chain finance.","areaServed":"IN","founder":{"@type":"Person","name":"Vikas Arora"},"address":{"@type":"PostalAddress","streetAddress":"Regal Building, 1st Floor, Parliament Street (Sansad Marg), Connaught Place","addressLocality":"New Delhi","postalCode":"110001","addressCountry":"IN"},"email":"founder@zekabir.com"}
 </script>
-
 <style>
-/* =========================================================
-   ZEKA BIR — midnight & brass
-   Navy #0C1B36 · brass #C2963E · verdigris #0E8163 (from mark)
-   ========================================================= */
+/* ==========================================================
+   ZEKA BIR
+   Two grounds, deliberately alternated:
+   light for reading, ink for the moments that should land.
+   Every component reads its colours from semantic tokens, so
+   the same markup works on either ground without variants.
+   ========================================================== */
 :root{
-  --ink:#050F1F;
-  --ink-2:#0A1830;
-  --navy:#0C193B;
-  --navy-3:#132B50;
-  --brass:#C29B51;
-  --brass-hi:#EDCF8B;
-  --brass-lo:#8C6E20;
-  --teal:#188F70;
-  --teal-hi:#28A880;
+  /* light ground (default) */
+  --bg:#FFFFFF;
+  --surface:#F4F6F5;
+  --raised:#FFFFFF;
+  --text:#12151B;
+  --text-2:#535A66;
+  --text-3:#828A96;
+  --line:#E4E7E6;
+  --line-2:#CDD2D1;
+  --accent:#9A7B33;
+  --accent-2:#B99546;
+  --accent-soft:rgba(154,123,51,.1);
+  --btn-bg:#12151B;
+  --btn-fg:#FFFFFF;
+  --btn-bg-h:#000000;
 
-  --parch:#F5F3EE;
-  --parch-2:#FBFAF7;
-  --line-d:rgba(235,213,160,.16);
-  --line-dd:rgba(255,255,255,.09);
-  --line-l:#DED9CE;
-  --txt-d:rgba(226,233,242,.72);
-  --txt-l:#4B5361;
-
-  --disp:"Archivo",-apple-system,"Segoe UI",sans-serif;
+  --disp:"Newsreader",Cambria,Georgia,serif;
   --body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-  --quote:"Newsreader",Cambria,Georgia,serif;
 
-  --gutter:clamp(20px,5vw,68px);
-  --maxw:1240px;
-  --sect:clamp(76px,9.5vw,140px);
+  --gut:clamp(22px,5vw,72px);
+  --maxw:1220px;
+  --sect:clamp(76px,9vw,132px);
   --e:cubic-bezier(.22,.61,.36,1);
 }
+/* ink ground — same tokens, different values */
+.s-dark{
+  --bg:#12151B;
+  --surface:#191D25;
+  --raised:#1D222B;
+  --text:#F3F2EF;
+  --text-2:rgba(243,242,239,.7);
+  --text-3:rgba(243,242,239,.54);
+  --line:rgba(243,242,239,.13);
+  --line-2:rgba(243,242,239,.24);
+  --accent:#D7BD84;
+  --accent-2:#EBDBB4;
+  --accent-soft:rgba(215,189,132,.12);
+  --btn-bg:#D7BD84;
+  --btn-fg:#14160F;
+  --btn-bg-h:#EBDBB4;
+  background:var(--bg);color:var(--text);
+}
+.s-light{background:var(--bg);color:var(--text)}
+.s-light.alt{background:var(--surface)}
+.s-dark.alt{background:var(--surface)}
+
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{
-  margin:0;background:var(--ink);color:#E9EEF5;
-  font-family:var(--body);font-size:16.5px;line-height:1.6;
-  -webkit-font-smoothing:antialiased;overflow-x:hidden;
-}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:var(--body);font-size:16.5px;line-height:1.62;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
 body.nav-open{overflow:hidden}
 img,svg{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
-button{font:inherit;cursor:pointer}
-:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
-.skip{position:absolute;left:-9999px;z-index:300;background:var(--brass);color:#0B1730;padding:12px 18px;font-weight:600}
+button{font:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:-9999px;z-index:300;background:#12151B;color:#fff;padding:12px 18px;font-weight:600}
 .skip:focus{left:12px;top:12px}
-.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.wrap{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gut)}
 
-/* grain + glow utilities */
-.grain::before{
-  content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;mix-blend-mode:overlay;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
-}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;line-height:1.08;
+  letter-spacing:-.02em;color:var(--text)}
+h1{font-size:clamp(2.45rem,4.9vw,4rem);line-height:1.05;letter-spacing:-.03em}
+h2{font-size:clamp(1.95rem,3.5vw,2.9rem);letter-spacing:-.026em}
+h3{font-size:1.18rem;letter-spacing:-.012em;line-height:1.3}
+p{margin:0 0 1em}
+.lede{font-size:clamp(1.03rem,1.3vw,1.16rem);line-height:1.68;color:var(--text-2);max-width:56ch}
+.it{font-style:italic;font-weight:300;color:var(--accent)}
 
-/* ---------- type ---------- */
-h1,h2,h3,h4{font-family:var(--disp);font-weight:600;margin:0;line-height:1.06;letter-spacing:-.028em}
-h1{font-size:clamp(2.3rem,4.9vw,4rem);letter-spacing:-.036em}
-h2{font-size:clamp(1.95rem,3.9vw,3.15rem);letter-spacing:-.032em}
-h3{font-size:clamp(1.1rem,1.55vw,1.28rem);font-weight:600;letter-spacing:-.014em;line-height:1.28}
-p{margin:0 0 1.05em}
-.lede{font-size:clamp(1.02rem,1.4vw,1.16rem);line-height:1.68;color:var(--txt-d);max-width:60ch}
-.on-light .lede{color:var(--txt-l)}
-.gold{color:var(--brass)}
-.on-light .gold{color:var(--brass-lo)}
+.eyebrow{font-family:var(--mono);font-size:.84rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 1.3rem;display:flex;align-items:center;gap:.85em;font-weight:500}
+.eyebrow::before{content:"";width:30px;height:1px;background:var(--accent);flex:none}
 
-.kicker{
-  font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--brass);display:inline-flex;align-items:center;gap:.7em;margin:0 0 1.2rem;
-}
-.kicker::before{content:"";width:22px;height:1px;background:linear-gradient(90deg,var(--brass),transparent)}
-.on-light .kicker{color:var(--brass-lo)}
+/* ── buttons ───────────────────────────────────────────── */
+.btn{display:inline-flex;align-items:center;gap:.62em;border:1px solid var(--btn-bg);
+  background:var(--btn-bg);color:var(--btn-fg);font-size:.92rem;font-weight:600;
+  padding:.88em 1.6em;border-radius:2px;
+  transition:background .3s var(--e),border-color .3s var(--e),color .3s var(--e)}
+.btn:hover{background:var(--btn-bg-h);border-color:var(--btn-bg-h)}
+.btn-o{background:transparent;color:var(--text);border-color:var(--line-2)}
+.btn-o:hover{background:transparent;border-color:var(--accent);color:var(--accent)}
+.btn .a{transition:transform .3s var(--e)}
+.btn:hover .a{transform:translateX(3px)}
 
-/* ---------- buttons ---------- */
-.btn{
-  display:inline-flex;align-items:center;gap:.62em;border:1px solid transparent;border-radius:2px;
-  font-family:var(--body);font-size:.87rem;font-weight:600;letter-spacing:.005em;padding:.85em 1.45em;
-  transition:background .28s var(--e),color .28s var(--e),border-color .28s var(--e),box-shadow .28s var(--e),transform .2s var(--e);
-}
-.btn .arw{transition:transform .28s var(--e)}
-.btn:hover .arw{transform:translateX(4px)}
-.btn-gold{background:linear-gradient(135deg,#E0BC70,#C2963E 55%,#A87F2E);color:#12203A;box-shadow:0 8px 24px -12px rgba(194,150,62,.8)}
-.btn-gold:hover{box-shadow:0 14px 32px -12px rgba(194,150,62,.95);transform:translateY(-1px)}
-.btn-line{border-color:rgba(235,213,160,.32);color:#EBD5A0}
-.btn-line:hover{border-color:var(--brass);background:rgba(194,150,62,.1)}
-.btn-ink{background:var(--navy);color:#fff;border-color:var(--navy)}
-.btn-ink:hover{background:var(--navy-3);transform:translateY(-1px)}
-
-/* ── CSS wordmark (replaces PNG extracts) ─────────────────────────── */
-.logo-txt{display:flex;flex-direction:column;line-height:1;gap:3.5px;overflow:hidden}
-.logo-name{font-family:var(--disp);font-weight:700;font-size:.98rem;letter-spacing:.15em;
-  color:#fff;text-transform:uppercase;white-space:nowrap}
-.logo-sub{font-family:var(--mono);font-size:.5rem;letter-spacing:.22em;
-  color:rgba(226,233,242,.46);text-transform:uppercase;white-space:nowrap}
-.hdr.solid .logo-name{font-size:.9rem}
-.ftr .logo-name{font-size:1.05rem;letter-spacing:.17em}
-.ftr .logo-sub{color:rgba(235,213,160,.48)}
-
-/* ── Vikas Arora lead card ─────────────────────────────────────────── */
-.lead-card{background:#fff;border:1px solid var(--line-l);border-radius:3px;
-  overflow:hidden;box-shadow:0 24px 60px -36px rgba(12,27,54,.55)}
-.lead-photo-wrap{position:relative;overflow:hidden}
-.lead-photo{width:100%;height:286px;object-fit:cover;object-position:center 6%;
-  display:block;background:#000}
-.lead-photo-grad{position:absolute;bottom:0;left:0;right:0;
-  background:linear-gradient(transparent 15%,rgba(5,16,40,.96));padding:56px 26px 22px}
-.lead-photo-role{font-family:var(--mono);font-size:.67rem;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--brass-hi);margin-bottom:9px}
-.lead-photo-name{font-family:var(--disp);font-weight:700;
-  font-size:clamp(1.45rem,2.1vw,1.85rem);letter-spacing:-.03em;color:#fff}
-.lead-bio{padding:clamp(20px,2.5vw,28px)}
-.lead-bio p{font-size:.94rem;color:var(--txt-l);margin-bottom:.85em;max-width:54ch}
-.lead-bio p:last-child{margin-bottom:0}
-.lead-bio .q{font-family:var(--quote);font-style:italic;font-size:1.06rem;line-height:1.54;
-  color:#0A1830;border-top:1px solid var(--line-l);margin-top:20px;padding-top:18px}
-
-/* ---------- header ---------- */
-.hdr{position:fixed;inset:0 0 auto 0;z-index:120;transition:background .35s var(--e),box-shadow .35s var(--e),border-color .35s}
-.hdr::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--line-d);opacity:0;transition:opacity .35s}
-.hdr.solid{background:rgba(5,15,31,.9);backdrop-filter:saturate(150%) blur(14px);-webkit-backdrop-filter:saturate(150%) blur(14px)}
-.hdr.solid::after{opacity:1}
-.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:22px;height:84px;transition:height .35s var(--e)}
-.hdr.solid .hdr-in{height:68px}
-
-.logo{display:flex;align-items:center;gap:12px}
-.logo img.mk{width:44px;height:44px;transition:width .35s var(--e),height .35s var(--e)}
-.hdr.solid .logo img.mk{width:37px;height:37px}
-
-
-
-.nav{display:flex;align-items:center;gap:clamp(16px,2.1vw,32px)}
-.nav a{font-size:.855rem;font-weight:500;color:rgba(226,233,242,.72);padding:8px 0;position:relative;transition:color .22s}
-.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:2px;height:1px;background:var(--brass);transition:right .32s var(--e)}
-.nav a:hover,.nav a.active{color:#fff}
-.nav a:hover::after,.nav a.active::after{right:0}
+/* ── header ────────────────────────────────────────────── */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:120;transition:background .35s var(--e),box-shadow .35s var(--e)}
+.hdr::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--line);opacity:0;transition:opacity .35s}
+.hdr.on{background:rgba(255,255,255,.9);backdrop-filter:saturate(170%) blur(14px);-webkit-backdrop-filter:saturate(170%) blur(14px);
+  box-shadow:0 1px 24px -12px rgba(18,21,27,.28)}
+.hdr.on::after{opacity:1}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:24px;height:88px;transition:height .35s var(--e)}
+.hdr.on .hdr-in{height:70px}
+.brand{display:flex;align-items:center;gap:13px}
+.brand img{width:44px;height:44px;transition:width .35s var(--e),height .35s var(--e)}
+.hdr.on .brand img{width:38px;height:38px}
+.brand-t{display:flex;flex-direction:column;line-height:1;gap:5px}
+.brand-n{font-weight:600;font-size:1.02rem;letter-spacing:.16em;color:var(--text)}
+.brand-s{font-family:var(--mono);font-size:.63rem;letter-spacing:.17em;color:var(--text-3);text-transform:uppercase}
+.nav{display:flex;align-items:center;gap:clamp(18px,2.3vw,34px)}
+.nav a{font-size:.92rem;color:var(--text-2);padding:6px 0;position:relative;transition:color .22s}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1.5px;background:var(--accent);transition:right .3s var(--e)}
+.nav a:hover,.nav a.on{color:var(--text)}
+.nav a:hover::after,.nav a.on::after{right:0}
 .hdr-cta{display:inline-flex}
-
-.burger{display:none;width:44px;height:44px;background:rgba(255,255,255,.04);border:1px solid var(--line-dd);border-radius:2px;position:relative}
-.burger span{position:absolute;left:12px;right:12px;height:1.5px;background:#EBD5A0;transition:transform .3s var(--e),opacity .2s}
+.prog{position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--accent)}
+.burger{display:none;width:44px;height:44px;background:none;border:1px solid var(--line-2);border-radius:2px;position:relative}
+.burger span{position:absolute;left:12px;right:12px;height:1.5px;background:var(--text);transition:transform .3s var(--e)}
 .burger span:nth-child(1){top:16px}
 .burger span:nth-child(2){bottom:16px}
 body.nav-open .burger span:nth-child(1){transform:translateY(5px) rotate(45deg)}
 body.nav-open .burger span:nth-child(2){transform:translateY(-5px) rotate(-45deg)}
 
-/* progress bar */
-.prog{position:absolute;left:0;bottom:0;height:2px;width:0;background:linear-gradient(90deg,var(--teal),var(--brass) 60%,var(--brass-hi));z-index:2}
-
-/* ---------- drawer ---------- */
-.drawer{
-  position:fixed;inset:0;z-index:110;background:linear-gradient(180deg,#050F1F,#0A1830);
-  padding:104px var(--gutter) 40px;display:flex;flex-direction:column;overflow-y:auto;
-  opacity:0;visibility:hidden;transform:translateY(-10px);
-  transition:opacity .3s var(--e),transform .38s var(--e),visibility .3s;
-}
+.drawer{position:fixed;inset:0;z-index:110;background:var(--bg);padding:110px var(--gut) 40px;
+  display:flex;flex-direction:column;opacity:0;visibility:hidden;transform:translateY(-6px);
+  transition:opacity .3s var(--e),transform .35s var(--e),visibility .3s;overflow-y:auto}
 body.nav-open .drawer{opacity:1;visibility:visible;transform:none}
-.drawer a.dl{
-  font-family:var(--disp);font-weight:600;font-size:clamp(1.55rem,7vw,2rem);letter-spacing:-.03em;color:#EEF3F9;
-  padding:.55em 0;border-bottom:1px solid var(--line-dd);display:flex;align-items:baseline;gap:.75em;
-}
-.drawer a.dl .n{font-family:var(--mono);font-size:.66rem;color:var(--brass);letter-spacing:.12em;font-weight:400}
-.drawer .btn{margin-top:30px;justify-content:center}
-.drawer-foot{margin-top:auto;padding-top:34px;font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(235,213,160,.5)}
+.drawer a.dl{font-family:var(--disp);font-size:clamp(1.7rem,7vw,2.1rem);padding:.52em 0;
+  border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:.8em;color:var(--text)}
+.drawer a.dl i{font-family:var(--mono);font-size:.72rem;color:var(--accent);font-style:normal;letter-spacing:.1em}
+.drawer .btn{margin-top:32px;justify-content:center}
 
-/* ---------- hero ---------- */
-.hero{position:relative;overflow:hidden;padding:calc(84px + clamp(52px,8vw,96px)) 0 0;
-  background:
-    radial-gradient(90% 80% at 82% 6%,rgba(194,150,62,.2),transparent 55%),
-    radial-gradient(70% 70% at 2% 96%,rgba(14,129,99,.2),transparent 60%),
-    
-    linear-gradient(170deg,#071429,#0A1730 55%,#050F1F);
-}
-.hero .arcbg{
-  position:absolute;top:-18%;right:-16%;width:min(78vw,860px);aspect-ratio:1;pointer-events:none;
-  border-radius:50%;border:1px solid rgba(235,213,160,.1);
-}
-.hero .arcbg::after{
-  content:"";position:absolute;inset:9%;border-radius:50%;
-  border:1px solid rgba(235,213,160,.07);
-}
-.hero-grid{
-  position:absolute;inset:0;pointer-events:none;opacity:.55;
-  background-image:linear-gradient(rgba(235,213,160,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(235,213,160,.055) 1px,transparent 1px);
-  background-size:clamp(64px,7vw,104px) clamp(64px,7vw,104px);
-  -webkit-mask-image:radial-gradient(130% 100% at 50% 0%,#000 28%,transparent 76%);
-  mask-image:radial-gradient(130% 100% at 50% 0%,#000 28%,transparent 76%);
-}
-.hero-in{position:relative;z-index:3;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(30px,5vw,80px);align-items:center;padding-bottom:clamp(52px,7vw,88px)}
-.hero h1{color:#fff}
-.hero h1 .thin{font-family:var(--quote);font-style:italic;font-weight:300;letter-spacing:-.01em;color:var(--brass-hi)}
-.hero .lede{margin-top:24px;max-width:50ch}
-.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.hero-meta{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:34px;font-family:var(--mono);font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:rgba(226,233,242,.5)}
-.hero-meta span{display:inline-flex;align-items:center;gap:8px}
-.hero-meta i{width:5px;height:5px;border-radius:50%;background:var(--brass);font-style:normal}
+/* ── hero ──────────────────────────────────────────────── */
+.hero{padding:calc(88px + clamp(48px,7vw,88px)) 0 clamp(50px,6vw,82px);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(72% 60% at 82% 16%,var(--accent-soft),transparent 64%)}
+.hero-in{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);
+  gap:clamp(30px,5vw,72px);align-items:center}
+.hero h1{max-width:15ch}
+.hero .lede{margin-top:24px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.creds{margin-top:42px;padding-top:26px;border-top:1px solid var(--line);
+  display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.cred b{display:block;font-family:var(--disp);font-size:clamp(1.5rem,2.2vw,1.95rem);
+  color:var(--accent);line-height:1;letter-spacing:-.02em}
+.cred span{display:block;font-family:var(--mono);font-size:.735rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--text-3);margin-top:11px;line-height:1.55}
 
-.emblem{position:relative;display:grid;place-items:center;max-width:420px;margin-inline:auto;width:100%;aspect-ratio:1}
-.emblem img{width:78%;height:auto;filter:drop-shadow(0 26px 60px rgba(0,0,0,.6))}
-.emblem .halo{position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle,rgba(194,150,62,.22),transparent 62%);animation:breathe 8s ease-in-out infinite}
-.emblem .spin{position:absolute;inset:-4%;border-radius:50%;border:1px dashed rgba(235,213,160,.22);animation:rot 60s linear infinite}
-@keyframes breathe{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:.5;transform:scale(1.06)}}
+.emblem{position:relative;width:100%;max-width:480px;margin-inline:auto}
+.emblem svg{width:100%;height:auto;overflow:visible}
+.em-ring{fill:none;stroke:var(--line-2);stroke-width:1}
+.em-tick{stroke:var(--line-2);stroke-width:1}
+.em-tick-lg{stroke:var(--accent);stroke-width:1.3;opacity:.55}
+.em-ticks{transform-origin:330px 330px;animation:rot 170s linear infinite}
+.em-arc{fill:none;stroke:var(--accent);stroke-width:5;stroke-dasharray:520;stroke-dashoffset:520;
+  animation:draw 1.3s var(--e) forwards;animation-delay:calc(var(--i) * .12s + .2s)}
 @keyframes rot{to{transform:rotate(360deg)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+.em-mark{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:26%}
 
-/* pillars */
-.pillars{position:relative;z-index:3;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-d)}
-.pil{padding:26px clamp(18px,2.4vw,32px) 26px 0;border-right:1px solid var(--line-dd);display:flex;gap:13px;align-items:flex-start}
-.pil:last-child{border-right:0}
-.pil + .pil{padding-left:clamp(18px,3vw,44px)}
-.pil i{width:9px;height:9px;border-radius:50%;margin-top:7px;flex:none;font-style:normal}
-.pil.a i{background:#7FA0D8;box-shadow:0 0 12px rgba(127,160,216,.6)}
-.pil.b i{background:var(--brass);box-shadow:0 0 12px rgba(194,150,62,.6)}
-.pil.c i{background:var(--teal-hi);box-shadow:0 0 12px rgba(43,176,139,.6)}
-.pil h4{font-family:var(--body);font-weight:600;font-size:.9rem;color:#fff;margin-bottom:4px;letter-spacing:0}
-.pil p{margin:0;font-size:.83rem;line-height:1.5;color:rgba(226,233,242,.55)}
-
-/* ---------- metrics ---------- */
-.metrics{background:linear-gradient(180deg,#050F1F,#081527);border-top:1px solid var(--line-dd);border-bottom:1px solid var(--line-dd);position:relative}
-.metrics-in{display:grid;grid-template-columns:repeat(4,1fr)}
-.mt{padding:clamp(34px,4.4vw,52px) clamp(18px,2.5vw,38px);border-right:1px solid var(--line-dd);position:relative}
-.mt:first-child{padding-left:0}
-.mt:last-child{border-right:0;padding-right:0}
-.mt .v{font-family:var(--disp);font-weight:700;font-size:clamp(2.3rem,4.4vw,3.5rem);line-height:1;letter-spacing:-.04em;
-  background:linear-gradient(160deg,#FBF3DF,#C2963E 70%);-webkit-background-clip:text;background-clip:text;color:transparent;display:flex;align-items:baseline}
-.mt .v em{font-style:normal;font-size:.46em;margin-left:2px}
-.mt .l{font-family:var(--mono);font-size:.685rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(226,233,242,.52);margin-top:15px;line-height:1.65}
-
-/* ---------- sections ---------- */
+/* ── sections ──────────────────────────────────────────── */
 .sect{padding:var(--sect) 0;position:relative}
-.on-light{background:var(--parch);color:#141B26}
-.on-light h1,.on-light h2,.on-light h3{color:#0C1B36}
-.dark-2{background:linear-gradient(180deg,#071429,#0A1830)}
-.head{max-width:64ch;margin-bottom:clamp(42px,5vw,66px)}
+.head{max-width:58ch;margin-bottom:clamp(42px,5vw,64px)}
 .head p{margin-top:18px}
-.rule{height:1px;background:linear-gradient(90deg,var(--brass),rgba(194,150,62,.05));width:74px;margin-bottom:26px}
 
-/* ---------- firm ---------- */
-.firm{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(34px,5vw,76px);align-items:start}
-.firm-body p{color:var(--txt-l);max-width:58ch}
-.firm-body strong{color:#0C1B36;font-weight:600}
-.lead-card{background:#fff;border:1px solid var(--line-l);border-radius:3px;overflow:hidden;box-shadow:0 24px 60px -40px rgba(12,27,54,.5)}
-.lead-top{background:linear-gradient(140deg,#0C1B36,#132B4E);padding:clamp(26px,3vw,34px);position:relative;overflow:hidden}
-.lead-top::after{content:"";position:absolute;right:-40px;top:-40px;width:170px;height:170px;border-radius:50%;border:14px solid rgba(194,150,62,.16);border-right-color:transparent;border-bottom-color:transparent}
-.lead-top .role{font-family:var(--mono);font-size:.67rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-hi)}
-.lead-top .nm{font-family:var(--disp);font-weight:600;font-size:clamp(1.6rem,2.5vw,2.05rem);letter-spacing:-.03em;color:#fff;margin-top:10px}
-.lead-top .tt{font-size:.9rem;color:rgba(226,233,242,.66);margin-top:6px}
-.lead-body{padding:clamp(24px,3vw,32px)}
-.lead-body p{font-size:.95rem;color:var(--txt-l);margin:0}
-.lead-body .q{font-family:var(--quote);font-style:italic;font-size:1.1rem;line-height:1.55;color:#0C1B36;border-top:1px solid var(--line-l);margin-top:22px;padding-top:20px}
-.whowith{margin-top:26px;border-top:1px solid var(--line-l)}
-.whowith div{display:flex;justify-content:space-between;gap:18px;padding:14px 0;border-bottom:1px solid var(--line-l);font-size:.92rem}
-.whowith span:last-child{font-family:var(--mono);font-size:.655rem;letter-spacing:.12em;text-transform:uppercase;color:#8A8271;align-self:center;text-align:right}
+/* ── about ─────────────────────────────────────────────── */
+.about{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(34px,5vw,76px);align-items:start}
+.about p{color:var(--text-2);max-width:52ch}
+.about strong{color:var(--text);font-weight:600}
+.zk{color:var(--accent);font-style:italic;font-weight:300}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:38px}
+.stat{background:var(--raised);padding:clamp(22px,2.6vw,30px)}
+.stat b{display:block;font-family:var(--disp);font-size:clamp(1.55rem,2.3vw,2rem);
+  line-height:1.1;letter-spacing:-.025em;color:var(--accent)}
+.stat span{display:block;font-family:var(--mono);font-size:.735rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--text-3);margin-top:13px;line-height:1.6}
+.card{border:1px solid var(--line);background:var(--raised);
+  box-shadow:0 30px 60px -48px rgba(18,21,27,.5)}
+.card figure{margin:0;position:relative;background:#0A0C10}
+.card img{width:100%;height:clamp(330px,29vw,410px);object-fit:cover;object-position:center 11%;
+  filter:saturate(.92) contrast(1.03)}
+.card figcaption{position:absolute;left:0;right:0;bottom:0;padding:72px 28px 24px;
+  background:linear-gradient(transparent,rgba(10,12,16,.62) 42%,rgba(10,12,16,.97))}
+.card .role{font-family:var(--mono);font-size:.735rem;letter-spacing:.18em;text-transform:uppercase;color:#D7BD84}
+.card .nm{font-family:var(--disp);font-size:1.85rem;color:#fff;margin-top:9px;letter-spacing:-.022em}
+.card .body{padding:clamp(22px,2.6vw,30px);border-top:1px solid var(--line)}
+.card .body p{font-size:.96rem;color:var(--text-2);margin:0;max-width:none}
 
-/* ---------- services ---------- */
-.svcs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
-.svc{
-  position:relative;padding:clamp(28px,3vw,38px);border-radius:3px;overflow:hidden;
-  background:linear-gradient(165deg,rgba(255,255,255,.055),rgba(255,255,255,.014));
-  border:1px solid var(--line-dd);
-  transition:transform .4s var(--e),border-color .4s var(--e),background .4s var(--e),box-shadow .4s var(--e);
-}
-.svc::before{content:"";position:absolute;left:0;top:0;height:2px;width:100%;transform:scaleX(0);transform-origin:left;
-  background:linear-gradient(90deg,var(--brass-hi),var(--brass) 60%,transparent);transition:transform .5s var(--e)}
-.svc:hover{transform:translateY(-4px);border-color:rgba(235,213,160,.28);background:linear-gradient(165deg,rgba(235,213,160,.09),rgba(255,255,255,.02));box-shadow:0 26px 50px -30px rgba(0,0,0,.9)}
-.svc:hover::before{transform:scaleX(1)}
-.svc .ico{
-  width:52px;height:52px;border-radius:3px;display:grid;place-items:center;margin-bottom:24px;
-  background:linear-gradient(150deg,rgba(235,213,160,.16),rgba(194,150,62,.04));border:1px solid rgba(235,213,160,.2);
-  color:var(--brass-hi);transition:color .35s,border-color .35s,background .35s;
-}
-.svc:hover .ico{background:linear-gradient(150deg,rgba(235,213,160,.28),rgba(194,150,62,.08));border-color:rgba(235,213,160,.4)}
-.svc .ico svg{width:24px;height:24px}
-.svc h3{color:#fff;margin-bottom:11px}
-.svc p{font-size:.925rem;color:rgba(226,233,242,.66);margin:0}
-.svc ul{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
-.svc li{font-family:var(--mono);font-size:.655rem;letter-spacing:.07em;color:rgba(235,213,160,.72);border:1px solid rgba(235,213,160,.2);border-radius:999px;padding:3.5px 10px}
+/* ── focus ─────────────────────────────────────────────── */
+.focus{position:relative;overflow:hidden}
+.focus::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(60% 60% at 26% 40%,var(--accent-soft),transparent 64%)}
+.fc{position:relative;z-index:2;display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:clamp(30px,5vw,68px);align-items:center}
 
-/* ---------- marquee ---------- */
-.marq{position:relative;overflow:hidden;border-top:1px solid var(--line-dd);border-bottom:1px solid var(--line-dd);background:rgba(255,255,255,.018);padding:18px 0}
-.marq::before,.marq::after{content:"";position:absolute;top:0;bottom:0;width:14%;z-index:2;pointer-events:none}
-.marq::before{left:0;background:linear-gradient(90deg,#071429,transparent)}
-.marq::after{right:0;background:linear-gradient(270deg,#071429,transparent)}
-.marq-track{display:flex;gap:0;width:max-content;animation:slide 46s linear infinite}
-.marq:hover .marq-track{animation-play-state:paused}
-.marq-track span{font-family:var(--mono);font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(226,233,242,.62);padding:0 30px;display:inline-flex;align-items:center;gap:30px;white-space:nowrap}
-.marq-track span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--brass);opacity:.75}
-@keyframes slide{to{transform:translateX(-50%)}}
+/* revolving orbit ---------------------------------------- */
+.orbit{position:relative;--size:min(470px,86vw);--r:calc(var(--size) * .385);
+  width:var(--size);aspect-ratio:1;margin-inline:auto}
+.orbit-rings{position:absolute;inset:0;width:100%;height:100%}
+.or-track{fill:none;stroke:var(--line-2);stroke-width:1}
+.or-faint{fill:none;stroke:var(--line);stroke-width:1}
+.or-tick{stroke:var(--line);stroke-width:1}
+.or-tick-lg{stroke:var(--accent);stroke-width:1.2;opacity:.5}
+.or-ticks{transform-origin:250px 250px;animation:rot 150s linear infinite}
 
-/* ---------- approach ---------- */
-.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line-l)}
-.stg{padding:clamp(28px,3vw,40px) clamp(18px,2vw,30px) clamp(30px,3.4vw,44px) 0;border-right:1px solid var(--line-l);position:relative}
-.stg:last-child{border-right:0}
-.stg + .stg{padding-left:clamp(18px,2vw,30px)}
-.stg::before{content:"";position:absolute;top:-1px;left:0;width:0;height:2px;background:var(--brass);transition:width .6s var(--e)}
-.stg.in::before{width:60%}
-.stg .n{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;color:var(--brass-lo);margin-bottom:22px}
-.stg h3{margin-bottom:12px}
-.stg p{font-size:.91rem;color:var(--txt-l);margin:0}
+/* the gold bracket that marks the live slot, at 12 o'clock */
+.orbit-marker{position:absolute;top:-2px;left:50%;width:56px;height:56px;
+  transform:translateX(-50%);border-top:2px solid var(--accent);
+  border-left:2px solid var(--accent);border-right:2px solid var(--accent);
+  border-radius:3px 3px 0 0;opacity:.85}
+.orbit-spoke{position:absolute;left:50%;top:11%;width:1px;height:28%;
+  transform:translateX(-50%);
+  background:linear-gradient(180deg,var(--accent),transparent)}
 
-/* ---------- investments ---------- */
-.inv{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(34px,5vw,76px);align-items:start}
-.panel{background:linear-gradient(160deg,rgba(255,255,255,.055),rgba(255,255,255,.012));border:1px solid var(--line-dd);border-radius:3px;padding:clamp(26px,3vw,36px)}
-.panel h3{color:#fff;margin-bottom:8px}
-.rows{margin-top:20px;border-top:1px solid var(--line-dd)}
-.rows div{display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid var(--line-dd);font-size:.93rem}
-.rows span:first-child{color:#EAF0F7}
-.rows span:last-child{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(235,213,160,.6);text-align:right;align-self:center}
-.sectors{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:8px}
-.sec{border:1px solid var(--line-dd);border-radius:3px;padding:20px;display:flex;align-items:center;gap:13px;transition:border-color .3s,background .3s}
-.sec:hover{border-color:rgba(235,213,160,.3);background:rgba(235,213,160,.05)}
-.sec svg{width:20px;height:20px;color:var(--brass-hi);flex:none}
-.sec b{font-weight:600;font-size:.94rem;color:#fff;display:block}
-.sec small{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(226,233,242,.45)}
+.orbit-ring{position:absolute;inset:0;transform:rotate(var(--rot));
+  transition:transform 1.15s cubic-bezier(.62,.03,.19,1)}
+.onode{position:absolute;top:50%;left:50%;width:0;height:0;
+  transform:translate(-50%,-50%) rotate(var(--a)) translateY(calc(var(--r) * -1))}
+.oface{position:absolute;top:50%;left:50%;display:flex;flex-direction:column;
+  align-items:center;gap:10px;width:124px;padding:6px 2px;border:0;background:none;
+  transform:translate(-50%,-50%) rotate(calc(-1 * var(--a) - var(--rot)));
+  transition:transform 1.15s cubic-bezier(.62,.03,.19,1)}
+.odot{width:11px;height:11px;border-radius:50%;background:var(--bg);
+  border:1.5px solid var(--line-2);transition:all .5s var(--e)}
+.olab{font-family:var(--body);font-size:.87rem;font-weight:500;color:var(--text-3);
+  text-align:center;line-height:1.3;transition:color .5s var(--e),transform .5s var(--e)}
+.olab em{display:block;font-family:var(--mono);font-style:normal;font-size:.66rem;
+  letter-spacing:.14em;color:var(--text-3);margin-bottom:5px;opacity:.7;transition:color .5s var(--e)}
+.oface:hover .olab{color:var(--text-2)}
+.onode.on .odot{background:var(--accent);border-color:var(--accent);
+  box-shadow:0 0 0 6px var(--accent-soft);transform:scale(1.25)}
+.onode.on .olab{color:var(--text);transform:scale(1.06)}
+.onode.on .olab em{color:var(--accent);opacity:1}
 
-/* ---------- cta band ---------- */
-.band{position:relative;overflow:hidden;background:linear-gradient(120deg,#0C1B36,#16305A 55%,#0C1B36)}
-.band::after{content:"";position:absolute;right:-6%;top:-70%;width:520px;height:520px;border-radius:50%;
-  border:22px solid rgba(194,150,62,.14);border-right-color:transparent;border-bottom-color:transparent;pointer-events:none}
-.band-in{position:relative;z-index:2;padding:clamp(52px,6.5vw,86px) 0;display:flex;flex-wrap:wrap;gap:30px;align-items:center;justify-content:space-between}
-.band h2{max-width:22ch;color:#fff}
-.band p{margin:14px 0 0;color:rgba(226,233,242,.65);max-width:46ch}
+.orbit-hub{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:22%;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;
+  background:var(--bg);border:1px solid var(--line)}
+.orbit-hub img{width:74%}
 
-/* ---------- contact ---------- */
-.ct{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:clamp(34px,5vw,76px);align-items:start}
-.ct dl{margin:26px 0 0;border-top:1px solid var(--line-l)}
-.ct dt{font-family:var(--mono);font-size:.655rem;letter-spacing:.16em;text-transform:uppercase;color:#8A8271;padding-top:17px}
-.ct dd{margin:5px 0 17px;font-size:.98rem;border-bottom:1px solid var(--line-l);padding-bottom:17px;color:#141B26}
-.ct dd a{border-bottom:1px solid var(--brass);transition:color .2s}
-.ct dd a:hover{color:var(--brass-lo)}
+/* active item ------------------------------------------- */
+.fc-detail{display:flex;flex-direction:column;gap:clamp(22px,3vw,32px)}
+.fc-texts{display:grid}
+.fc-text{grid-area:1/1;opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .5s var(--e),transform .5s var(--e),visibility .5s}
+.fc-text.on{opacity:1;visibility:visible;transform:none}
+.fc-num{font-family:var(--mono);font-size:.85rem;letter-spacing:.16em;color:var(--accent);
+  display:block;margin-bottom:14px}
+.fc-text h3{font-family:var(--disp);font-size:clamp(1.7rem,3vw,2.5rem);
+  letter-spacing:-.028em;line-height:1.06;margin-bottom:12px}
+.fc-text p{color:var(--text-2);font-size:1.02rem;max-width:42ch;margin:0}
 
-form{background:#fff;border:1px solid var(--line-l);border-radius:3px;padding:clamp(24px,3vw,38px);box-shadow:0 24px 60px -44px rgba(12,27,54,.55)}
+.fc-stage{position:relative;aspect-ratio:1.42/1;border:1px solid var(--line);background:var(--surface)}
+.fc-stage::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/56px 56px,
+             linear-gradient(var(--line) 1px,transparent 1px) 0 0/56px 56px;opacity:.6}
+.fc-panel{position:absolute;inset:0;opacity:0;visibility:hidden;
+  transition:opacity .45s var(--e),visibility .45s;z-index:2}
+.fc-panel.on{opacity:1;visibility:visible}
+.fc-panel .fx{width:100%;height:100%}
+.fc-cap{position:absolute;left:0;right:0;bottom:0;z-index:3;padding:14px 18px;
+  border-top:1px solid var(--line);background:var(--bg);
+  font-family:var(--mono);font-size:.735rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-3)}
+
+/* diagram primitives — animate only while their panel is live */
+.fx-base,.fx-axis{stroke:var(--line-2);stroke-width:1}
+.fx-bar{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.4;
+  transform-origin:center bottom;transform:scaleY(0)}
+.on .fx-bar{animation:barUp .7s var(--e) forwards;animation-delay:calc(var(--i) * .07s)}
+@keyframes barUp{to{transform:scaleY(1)}}
+.fx-trend{fill:none;stroke:var(--text);stroke-width:2.2;stroke-dasharray:900;stroke-dashoffset:900;opacity:.75}
+.on .fx-trend{animation:draw 1.1s var(--e) .35s forwards}
+.fx-node{fill:var(--text);opacity:0}
+.on .fx-node{animation:fade .4s var(--e) forwards;animation-delay:calc(var(--i) * .07s + .5s)}
+@keyframes fade{to{opacity:1}}
+.fx-wave{fill:none;stroke:var(--accent);stroke-width:1.5;opacity:0;stroke-dasharray:1200;stroke-dashoffset:1200}
+.on .fx-wave{animation:waveOut 1.5s var(--e) forwards;animation-delay:calc(var(--i) * .13s)}
+@keyframes waveOut{to{opacity:.6;stroke-dashoffset:0}}
+.fx-ray{stroke:var(--line-2);stroke-width:1;stroke-dasharray:500;stroke-dashoffset:500}
+.on .fx-ray{animation:draw .8s var(--e) forwards;animation-delay:calc(var(--i) * .1s + .25s)}
+.fx-mark{fill:none;stroke:var(--accent);stroke-width:1.8;opacity:0}
+.on .fx-mark{animation:fade .4s var(--e) forwards;animation-delay:calc(var(--i) * .1s + .7s)}
+.fx-origin{fill:var(--accent)}
+.fx-link{stroke-width:1;stroke-dasharray:600;stroke-dashoffset:600}
+.fx-link.a{stroke:var(--line-2)}
+.fx-link.b{stroke:var(--accent)}
+.on .fx-link.a{animation:draw .7s var(--e) forwards;animation-delay:calc(var(--i) * .06s)}
+.on .fx-link.b{animation:draw .7s var(--e) forwards;animation-delay:calc(var(--i) * .06s + .5s)}
+.fx-rail{stroke:var(--accent);opacity:.45;stroke-width:1;stroke-dasharray:300;stroke-dashoffset:300}
+.on .fx-rail{animation:draw .6s var(--e) forwards;animation-delay:calc(var(--i) * .06s + .9s)}
+.fx-old{fill:var(--text-3)}
+.fx-new{fill:var(--accent);opacity:0}
+.on .fx-new{animation:fade .4s var(--e) forwards;animation-delay:calc(var(--i) * .06s + .8s)}
+.fx-hub{fill:var(--bg);stroke:var(--accent);stroke-width:2}
+.fx-hub-ring{fill:none;stroke:var(--line-2);stroke-width:1;transform-origin:258px 204px}
+.on .fx-hub-ring{animation:pulse 3.4s var(--e) infinite}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.14);opacity:.32}}
+.fx-track{fill:var(--line);opacity:.5;stroke:var(--line-2);stroke-width:1}
+.fx-fill{fill:var(--accent-soft);transform-origin:72px center;transform:scaleX(0)}
+.on .fx-fill{animation:fillX .9s var(--e) forwards;animation-delay:calc(var(--i) * .13s)}
+@keyframes fillX{to{transform:scaleX(1)}}
+.fx-edge{stroke:var(--accent);stroke-width:2;stroke-dasharray:420;stroke-dashoffset:420}
+.on .fx-edge{animation:draw .9s var(--e) forwards;animation-delay:calc(var(--i) * .13s)}
+.fx-tie{fill:none;stroke:var(--accent);stroke-width:1.4;opacity:.8;stroke-dasharray:700;stroke-dashoffset:700}
+.on .fx-tie{animation:draw 1s var(--e) forwards;animation-delay:calc(var(--i) * .1s + .2s)}
+.fx-endA{fill:none;stroke:var(--text);stroke-width:1.6;opacity:0}
+.on .fx-endA{animation:fade .4s var(--e) forwards;animation-delay:calc(var(--i) * .08s)}
+.fx-endB{fill:var(--accent);opacity:0}
+.on .fx-endB{animation:fade .4s var(--e) forwards;animation-delay:calc(var(--i) * .08s + .3s)}
+
+/* ── services ──────────────────────────────────────────── */
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.svc{background:var(--bg);padding:clamp(28px,3vw,42px) clamp(22px,2.4vw,34px);
+  transition:background .35s var(--e);position:relative}
+.svc::before{content:"";position:absolute;left:0;top:0;height:2px;width:0;background:var(--accent);transition:width .45s var(--e)}
+.svc:hover{background:var(--surface)}
+.svc:hover::before{width:100%}
+.svc .n{font-family:var(--mono);font-size:.78rem;letter-spacing:.15em;color:var(--accent);margin-bottom:20px}
+.svc h3{margin-bottom:11px}
+.svc p{font-size:.95rem;color:var(--text-2);margin:0}
+
+/* ── cta ───────────────────────────────────────────────── */
+.cta-in{padding:clamp(54px,6.5vw,90px) 0;display:flex;flex-wrap:wrap;gap:30px;
+  align-items:center;justify-content:space-between}
+.cta-in h2{max-width:20ch}
+.cta-in p{margin:14px 0 0;color:var(--text-2);max-width:44ch}
+
+/* ── contact ───────────────────────────────────────────── */
+.ct{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);gap:clamp(34px,5vw,74px);align-items:start}
+.ct dl{margin:30px 0 0;border-top:1px solid var(--line)}
+.ct dt{font-family:var(--mono);font-size:.735rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-3);padding-top:19px}
+.ct dd{margin:6px 0 19px;font-size:1rem;border-bottom:1px solid var(--line);padding-bottom:19px;color:var(--text-2)}
+.ct dd a{color:var(--text);border-bottom:1px solid var(--accent)}
+.ct dd a:hover{color:var(--accent)}
+form{border:1px solid var(--line);background:var(--raised);padding:clamp(24px,3vw,38px);
+  box-shadow:0 30px 60px -50px rgba(18,21,27,.45)}
 .fg{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.fld{display:flex;flex-direction:column;gap:7px}
+.fld{display:flex;flex-direction:column;gap:8px}
 .fld.full{grid-column:1/-1}
-label{font-family:var(--mono);font-size:.645rem;letter-spacing:.15em;text-transform:uppercase;color:#6C7382}
-label .r{color:var(--brass-lo)}
-input,select,textarea{
-  font:inherit;font-size:.94rem;color:#0C1B36;background:#F8F7F4;border:1px solid var(--line-l);
-  border-radius:2px;padding:.75em .85em;width:100%;transition:border-color .2s,background .2s,box-shadow .2s;
-}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brass);background:#fff;box-shadow:0 0 0 3px rgba(194,150,62,.13)}
-textarea{resize:vertical;min-height:106px}
-select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%236C7382' stroke-width='1.4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
-.ff{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-top:22px}
-.note{font-size:.78rem;color:#6C7382;max-width:36ch;margin:0}
-.msg{margin-top:16px;font-size:.88rem;padding:12px 14px;border-radius:2px;display:none}
-.msg.ok{display:block;background:rgba(14,129,99,.1);border:1px solid rgba(14,129,99,.3);color:#0A5F49}
-.msg.err{display:block;background:rgba(194,150,62,.12);border:1px solid rgba(194,150,62,.4);color:#7A5A16}
+label{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-3)}
+label i{color:var(--accent);font-style:normal}
+input,select,textarea{font:inherit;font-size:.95rem;color:var(--text);background:var(--bg);
+  border:1px solid var(--line-2);border-radius:2px;padding:.78em .9em;width:100%;
+  transition:border-color .2s,box-shadow .2s}
+input::placeholder,textarea::placeholder{color:var(--text-3)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);
+  box-shadow:0 0 0 3px var(--accent-soft)}
+textarea{resize:vertical;min-height:110px}
+select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23828A96' stroke-width='1.3'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.ff{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-top:24px}
+.note{font-size:.84rem;color:var(--text-3);max-width:34ch;margin:0}
+.msg{margin-top:16px;font-size:.9rem;padding:13px 15px;border-radius:2px;display:none}
+.msg.ok{display:block;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent)}
+.msg.err{display:block;background:rgba(183,76,42,.08);border:1px solid rgba(183,76,42,.4);color:#9C4425}
 .hp{position:absolute;left:-9999px}
 
-/* ---------- footer ---------- */
-.ftr{background:#040D1B;padding:clamp(54px,6vw,80px) 0 30px;color:rgba(226,233,242,.6);border-top:1px solid var(--line-dd)}
-.ftr-top{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(0,1fr));gap:clamp(28px,4vw,58px);padding-bottom:44px;border-bottom:1px solid var(--line-dd)}
-.ftr .logo{margin-bottom:20px}
-.ftr .logo img.mk{width:50px;height:50px}
-.ftr p{font-size:.9rem;max-width:42ch}
-.ftr h5{font-family:var(--mono);font-size:.655rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(235,213,160,.55);margin:0 0 16px;font-weight:400}
-.ftr ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
-.ftr ul a{font-size:.89rem;color:rgba(226,233,242,.78);transition:color .2s}
-.ftr ul a:hover{color:var(--brass-hi)}
-.ftr-bot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding-top:26px;font-family:var(--mono);font-size:.655rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(226,233,242,.38)}
+/* ── footer ────────────────────────────────────────────── */
+.ftr{padding:clamp(54px,6vw,80px) 0 30px}
+.ftr-top{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(2,minmax(0,1fr));
+  gap:clamp(28px,4vw,56px);padding-bottom:44px;border-bottom:1px solid var(--line)}
+.ftr .brand{margin-bottom:22px}
+.ftr p{font-size:.94rem;max-width:40ch;color:var(--text-2)}
+.ftr h5{font-family:var(--mono);font-size:.735rem;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--text-3);margin:0 0 17px;font-weight:400}
+.ftr ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.ftr ul li,.ftr ul a{font-size:.94rem;color:var(--text-2)}
+.ftr ul a:hover{color:var(--accent)}
+.ftr-bot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding-top:26px;
+  font-family:var(--mono);font-size:.735rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}
 
-/* ---------- reveal ---------- */
-.rv{opacity:0;transform:translateY(20px);transition:opacity .75s var(--e),transform .75s var(--e)}
+/* ── reveal ────────────────────────────────────────────── */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s var(--e),transform .7s var(--e)}
 .rv.in{opacity:1;transform:none}
 
-/* ---------- responsive ---------- */
-@media (max-width:1040px){
-  .hero-in{grid-template-columns:1fr;gap:34px;padding-bottom:52px}
-  .emblem{max-width:230px;order:-1;margin:0}
-  .firm,.inv,.ct{grid-template-columns:1fr}
-  .metrics-in{grid-template-columns:1fr 1fr}
-  .mt{padding-inline:0 clamp(18px,3vw,34px)}
-  .mt:nth-child(2n){border-right:0;padding-right:0}
-  .mt:nth-child(n+3){border-top:1px solid var(--line-dd)}
-  .stages{grid-template-columns:1fr 1fr}
-  .stg:nth-child(2n){border-right:0}
-  .stg:nth-child(n+3){border-top:1px solid var(--line-l)}
-  .stg:nth-child(2n+1){padding-left:0}
+/* ── responsive ────────────────────────────────────────── */
+@media (max-width:1020px){
+  .hero-in,.about,.fc,.ct{grid-template-columns:1fr}
+  .orbit{--size:min(420px,84vw)}
+  .emblem{max-width:380px;margin-top:12px}
+  .svcs{grid-template-columns:1fr 1fr}
+  .fc-stage{aspect-ratio:1.5/1}
 }
 @media (max-width:880px){
   .nav,.hdr-cta{display:none}
   .burger{display:block}
-  .pillars{grid-template-columns:1fr}
-  .pil{border-right:0;border-bottom:1px solid var(--line-dd);padding:20px 0}
-  .pil:last-child{border-bottom:0}
-  .pil + .pil{padding-left:0}
 }
 @media (max-width:620px){
-  body{font-size:16px}
-  .emblem{max-width:180px}
-  .fg,.stages,.sectors{grid-template-columns:1fr}
-  .stg{border-right:0;border-top:1px solid var(--line-l);padding:26px 0}
-  .stg:first-child{border-top:0}
-  .stg + .stg{padding-left:0}
-  .ftr-top{grid-template-columns:1fr;gap:32px}
-  .band-in{flex-direction:column;align-items:flex-start}
+  .svcs,.fg,.creds,.stats,.ftr-top{grid-template-columns:1fr}
+  .cta-in{flex-direction:column;align-items:flex-start}
   .hero-cta .btn{flex:1 1 100%;justify-content:center}
-
+  .emblem{max-width:300px}
+  .fc-stage{aspect-ratio:1.25/1}
+  .orbit{--size:min(312px,88vw);--r:calc(var(--size) * .355)}
+  .oface{width:92px;gap:7px}
+  .olab{font-size:.75rem}
+  .olab em{font-size:.6rem;margin-bottom:3px}
+  .orbit-marker{width:44px;height:44px}
+  .orbit-hub{width:26%}
 }
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition-duration:.001ms!important}
   .rv{opacity:1;transform:none}
+  .em-arc,.fx-trend,.fx-ray,.fx-link,.fx-rail,.fx-edge,.fx-tie{stroke-dashoffset:0}
+  .fx-bar,.fx-fill{transform:none}
+  .fx-node,.fx-mark,.fx-new,.fx-endA,.fx-endB,.fx-wave{opacity:1}
+  .orbit-ring,.oface{transition:none}
 }
 @media print{.hdr,.drawer{display:none}body{background:#fff;color:#000}}
+
 </style>
 </head>
 <body>
@@ -446,290 +441,563 @@ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3
 
 <header class="hdr" id="hdr">
   <div class="wrap hdr-in">
-    <a class="logo" href="#top" aria-label="Zeka BIR Tech Solutions — home">
-      <img class="mk" src="assets/mark.png" alt="" width="44" height="44" />
-      <span class="logo-txt"><span class="logo-name">ZEKA BIR</span><span class="logo-sub">TECH SOLUTIONS PVT. LTD.</span></span>
+    <a class="brand" href="#top" aria-label="Zeka BIR Tech Solutions — home">
+      <img src="assets/mark.png" alt="" width="44" height="44" />
+      <span class="brand-t"><span class="brand-n">ZEKA BIR</span><span class="brand-s">Tech Solutions Pvt. Ltd.</span></span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="#firm">Firm</a>
+      <a href="#about">About Us</a>
+      <a href="#focus">Focus</a>
       <a href="#services">Services</a>
-      <a href="#expertise">Expertise</a>
-      <a href="#approach">Approach</a>
-      <a href="#investments">Investments</a>
+      <a href="#contact">Contact Us</a>
     </nav>
-    <a class="btn btn-gold hdr-cta" href="#contact">Request a conversation <span class="arw">→</span></a>
+    <a class="btn hdr-cta" href="#contact">Speak to us <span class="a">&#8594;</span></a>
     <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
   </div>
   <div class="prog" id="prog"></div>
 </header>
 
 <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
-  <a class="dl" href="#firm"><span class="n">01</span> Firm</a>
-  <a class="dl" href="#services"><span class="n">02</span> Services</a>
-  <a class="dl" href="#expertise"><span class="n">03</span> Expertise</a>
-  <a class="dl" href="#approach"><span class="n">04</span> Approach</a>
-  <a class="dl" href="#investments"><span class="n">05</span> Investments</a>
-  <a class="btn btn-gold" href="#contact">Request a conversation <span class="arw">→</span></a>
-  <div class="drawer-foot">Business Intelligence and Resilience</div>
+  <a class="dl" href="#about"><i>01</i> About Us</a>
+  <a class="dl" href="#focus"><i>02</i> Focus</a>
+  <a class="dl" href="#services"><i>03</i> Services</a>
+  <a class="dl" href="#contact"><i>04</i> Contact Us</a>
+  <a class="btn" href="#contact">Speak to us <span class="a">&#8594;</span></a>
 </div>
 
 <main id="main"><span id="top"></span>
 
 <!-- HERO -->
-<section class="hero grain">
-  <div class="hero-grid" aria-hidden="true"></div>
-  <div class="arcbg" aria-hidden="true"></div>
+<section class="hero s-light">
   <div class="wrap hero-in">
     <div>
-      <p class="kicker">Business Intelligence and Resilience</p>
-      <h1>Strategic advisory for <span class="thin">lending</span> and technology businesses.</h1>
-      <p class="lede">Zeka BIR works with promoters, boards and CXOs on growth strategy, lending programmes, operating models and capital readiness across FinTech, NBFC, MSME lending and technology.</p>
+      <p class="eyebrow">Business Intelligence and Resilience</p>
+      <h1>We help fast-growing businesses raise <span class="it">strategic debt</span>.</h1>
+      <p class="lede">Two decades across lending, trade finance and supply chain finance — put to work for owner-run businesses that are ready to grow.</p>
       <div class="hero-cta">
-        <a class="btn btn-gold" href="#contact">Request a conversation <span class="arw">→</span></a>
-        <a class="btn btn-line" href="#services">View our services</a>
+        <a class="btn" href="#contact">Speak to us <span class="a">&#8594;</span></a>
+        <a class="btn btn-o" href="#focus">See how we help</a>
       </div>
-      <div class="hero-meta">
-        <span><i></i> Founded and led by Vikas Arora</span>
-        <span><i></i> India</span>
+      <div class="creds">
+        <div class="cred"><b>Two decades</b><span>In lending, trade &amp; supply chain finance</span></div>
+        <div class="cred"><b>30+ lenders</b><span>Deep working partnerships</span></div>
       </div>
     </div>
-    <div class="emblem" aria-hidden="true">
-      <div class="halo"></div>
-      <div class="spin"></div>
-      <img src="assets/mark.png" alt="" />
-    </div>
-  </div>
-  <div class="wrap">
-    <div class="pillars">
-      <div class="pil a"><i></i><div><h4>BI &amp; Analytics</h4><p>Market sizing, portfolio reads and the numbers behind each decision.</p></div></div>
-      <div class="pil b"><i></i><div><h4>Financing</h4><p>Lending programmes, working capital structures and capital raising.</p></div></div>
-      <div class="pil c"><i></i><div><h4>Technology</h4><p>Digital infrastructure and platforms that hold up as volumes grow.</p></div></div>
+    <div class="emblem">
+      <svg viewBox="0 0 660 660" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<circle cx="330.0" cy="330.0" r="250" class="em-ring"/>
+<circle cx="330.0" cy="330.0" r="152" class="em-ring"/>
+<g class="em-ticks">
+<line x1="330.00" y1="94.00" x2="330.00" y2="80.00" class="em-tick-lg"/>
+<line x1="342.77" y1="86.33" x2="343.08" y2="80.34" class="em-tick"/>
+<line x1="355.50" y1="87.34" x2="356.13" y2="81.37" class="em-tick"/>
+<line x1="368.17" y1="89.00" x2="369.11" y2="83.08" class="em-tick"/>
+<line x1="380.73" y1="91.33" x2="381.98" y2="85.46" class="em-tick"/>
+<line x1="393.15" y1="94.31" x2="394.70" y2="88.52" class="em-tick"/>
+<line x1="405.40" y1="97.94" x2="407.25" y2="92.24" class="em-tick"/>
+<line x1="417.44" y1="102.21" x2="419.59" y2="96.60" class="em-tick"/>
+<line x1="429.24" y1="107.09" x2="431.68" y2="101.61" class="em-tick"/>
+<line x1="440.77" y1="112.59" x2="443.50" y2="107.25" class="em-tick"/>
+<line x1="448.00" y1="125.62" x2="455.00" y2="113.49" class="em-tick-lg"/>
+<line x1="462.89" y1="125.36" x2="466.16" y2="120.33" class="em-tick"/>
+<line x1="473.42" y1="132.60" x2="476.95" y2="127.75" class="em-tick"/>
+<line x1="483.55" y1="140.38" x2="487.33" y2="135.71" class="em-tick"/>
+<line x1="493.27" y1="148.67" x2="497.28" y2="144.21" class="em-tick"/>
+<line x1="502.53" y1="157.47" x2="506.78" y2="153.22" class="em-tick"/>
+<line x1="511.33" y1="166.73" x2="515.79" y2="162.72" class="em-tick"/>
+<line x1="519.62" y1="176.45" x2="524.29" y2="172.67" class="em-tick"/>
+<line x1="527.40" y1="186.58" x2="532.25" y2="183.05" class="em-tick"/>
+<line x1="534.64" y1="197.11" x2="539.67" y2="193.84" class="em-tick"/>
+<line x1="534.38" y1="212.00" x2="546.51" y2="205.00" class="em-tick-lg"/>
+<line x1="547.41" y1="219.23" x2="552.75" y2="216.50" class="em-tick"/>
+<line x1="552.91" y1="230.76" x2="558.39" y2="228.32" class="em-tick"/>
+<line x1="557.79" y1="242.56" x2="563.40" y2="240.41" class="em-tick"/>
+<line x1="562.06" y1="254.60" x2="567.76" y2="252.75" class="em-tick"/>
+<line x1="565.69" y1="266.85" x2="571.48" y2="265.30" class="em-tick"/>
+<line x1="568.67" y1="279.27" x2="574.54" y2="278.02" class="em-tick"/>
+<line x1="571.00" y1="291.83" x2="576.92" y2="290.89" class="em-tick"/>
+<line x1="572.66" y1="304.50" x2="578.63" y2="303.87" class="em-tick"/>
+<line x1="573.67" y1="317.23" x2="579.66" y2="316.92" class="em-tick"/>
+<line x1="566.00" y1="330.00" x2="580.00" y2="330.00" class="em-tick-lg"/>
+<line x1="573.67" y1="342.77" x2="579.66" y2="343.08" class="em-tick"/>
+<line x1="572.66" y1="355.50" x2="578.63" y2="356.13" class="em-tick"/>
+<line x1="571.00" y1="368.17" x2="576.92" y2="369.11" class="em-tick"/>
+<line x1="568.67" y1="380.73" x2="574.54" y2="381.98" class="em-tick"/>
+<line x1="565.69" y1="393.15" x2="571.48" y2="394.70" class="em-tick"/>
+<line x1="562.06" y1="405.40" x2="567.76" y2="407.25" class="em-tick"/>
+<line x1="557.79" y1="417.44" x2="563.40" y2="419.59" class="em-tick"/>
+<line x1="552.91" y1="429.24" x2="558.39" y2="431.68" class="em-tick"/>
+<line x1="547.41" y1="440.77" x2="552.75" y2="443.50" class="em-tick"/>
+<line x1="534.38" y1="448.00" x2="546.51" y2="455.00" class="em-tick-lg"/>
+<line x1="534.64" y1="462.89" x2="539.67" y2="466.16" class="em-tick"/>
+<line x1="527.40" y1="473.42" x2="532.25" y2="476.95" class="em-tick"/>
+<line x1="519.62" y1="483.55" x2="524.29" y2="487.33" class="em-tick"/>
+<line x1="511.33" y1="493.27" x2="515.79" y2="497.28" class="em-tick"/>
+<line x1="502.53" y1="502.53" x2="506.78" y2="506.78" class="em-tick"/>
+<line x1="493.27" y1="511.33" x2="497.28" y2="515.79" class="em-tick"/>
+<line x1="483.55" y1="519.62" x2="487.33" y2="524.29" class="em-tick"/>
+<line x1="473.42" y1="527.40" x2="476.95" y2="532.25" class="em-tick"/>
+<line x1="462.89" y1="534.64" x2="466.16" y2="539.67" class="em-tick"/>
+<line x1="448.00" y1="534.38" x2="455.00" y2="546.51" class="em-tick-lg"/>
+<line x1="440.77" y1="547.41" x2="443.50" y2="552.75" class="em-tick"/>
+<line x1="429.24" y1="552.91" x2="431.68" y2="558.39" class="em-tick"/>
+<line x1="417.44" y1="557.79" x2="419.59" y2="563.40" class="em-tick"/>
+<line x1="405.40" y1="562.06" x2="407.25" y2="567.76" class="em-tick"/>
+<line x1="393.15" y1="565.69" x2="394.70" y2="571.48" class="em-tick"/>
+<line x1="380.73" y1="568.67" x2="381.98" y2="574.54" class="em-tick"/>
+<line x1="368.17" y1="571.00" x2="369.11" y2="576.92" class="em-tick"/>
+<line x1="355.50" y1="572.66" x2="356.13" y2="578.63" class="em-tick"/>
+<line x1="342.77" y1="573.67" x2="343.08" y2="579.66" class="em-tick"/>
+<line x1="330.00" y1="566.00" x2="330.00" y2="580.00" class="em-tick-lg"/>
+<line x1="317.23" y1="573.67" x2="316.92" y2="579.66" class="em-tick"/>
+<line x1="304.50" y1="572.66" x2="303.87" y2="578.63" class="em-tick"/>
+<line x1="291.83" y1="571.00" x2="290.89" y2="576.92" class="em-tick"/>
+<line x1="279.27" y1="568.67" x2="278.02" y2="574.54" class="em-tick"/>
+<line x1="266.85" y1="565.69" x2="265.30" y2="571.48" class="em-tick"/>
+<line x1="254.60" y1="562.06" x2="252.75" y2="567.76" class="em-tick"/>
+<line x1="242.56" y1="557.79" x2="240.41" y2="563.40" class="em-tick"/>
+<line x1="230.76" y1="552.91" x2="228.32" y2="558.39" class="em-tick"/>
+<line x1="219.23" y1="547.41" x2="216.50" y2="552.75" class="em-tick"/>
+<line x1="212.00" y1="534.38" x2="205.00" y2="546.51" class="em-tick-lg"/>
+<line x1="197.11" y1="534.64" x2="193.84" y2="539.67" class="em-tick"/>
+<line x1="186.58" y1="527.40" x2="183.05" y2="532.25" class="em-tick"/>
+<line x1="176.45" y1="519.62" x2="172.67" y2="524.29" class="em-tick"/>
+<line x1="166.73" y1="511.33" x2="162.72" y2="515.79" class="em-tick"/>
+<line x1="157.47" y1="502.53" x2="153.22" y2="506.78" class="em-tick"/>
+<line x1="148.67" y1="493.27" x2="144.21" y2="497.28" class="em-tick"/>
+<line x1="140.38" y1="483.55" x2="135.71" y2="487.33" class="em-tick"/>
+<line x1="132.60" y1="473.42" x2="127.75" y2="476.95" class="em-tick"/>
+<line x1="125.36" y1="462.89" x2="120.33" y2="466.16" class="em-tick"/>
+<line x1="125.62" y1="448.00" x2="113.49" y2="455.00" class="em-tick-lg"/>
+<line x1="112.59" y1="440.77" x2="107.25" y2="443.50" class="em-tick"/>
+<line x1="107.09" y1="429.24" x2="101.61" y2="431.68" class="em-tick"/>
+<line x1="102.21" y1="417.44" x2="96.60" y2="419.59" class="em-tick"/>
+<line x1="97.94" y1="405.40" x2="92.24" y2="407.25" class="em-tick"/>
+<line x1="94.31" y1="393.15" x2="88.52" y2="394.70" class="em-tick"/>
+<line x1="91.33" y1="380.73" x2="85.46" y2="381.98" class="em-tick"/>
+<line x1="89.00" y1="368.17" x2="83.08" y2="369.11" class="em-tick"/>
+<line x1="87.34" y1="355.50" x2="81.37" y2="356.13" class="em-tick"/>
+<line x1="86.33" y1="342.77" x2="80.34" y2="343.08" class="em-tick"/>
+<line x1="94.00" y1="330.00" x2="80.00" y2="330.00" class="em-tick-lg"/>
+<line x1="86.33" y1="317.23" x2="80.34" y2="316.92" class="em-tick"/>
+<line x1="87.34" y1="304.50" x2="81.37" y2="303.87" class="em-tick"/>
+<line x1="89.00" y1="291.83" x2="83.08" y2="290.89" class="em-tick"/>
+<line x1="91.33" y1="279.27" x2="85.46" y2="278.02" class="em-tick"/>
+<line x1="94.31" y1="266.85" x2="88.52" y2="265.30" class="em-tick"/>
+<line x1="97.94" y1="254.60" x2="92.24" y2="252.75" class="em-tick"/>
+<line x1="102.21" y1="242.56" x2="96.60" y2="240.41" class="em-tick"/>
+<line x1="107.09" y1="230.76" x2="101.61" y2="228.32" class="em-tick"/>
+<line x1="112.59" y1="219.23" x2="107.25" y2="216.50" class="em-tick"/>
+<line x1="125.62" y1="212.00" x2="113.49" y2="205.00" class="em-tick-lg"/>
+<line x1="125.36" y1="197.11" x2="120.33" y2="193.84" class="em-tick"/>
+<line x1="132.60" y1="186.58" x2="127.75" y2="183.05" class="em-tick"/>
+<line x1="140.38" y1="176.45" x2="135.71" y2="172.67" class="em-tick"/>
+<line x1="148.67" y1="166.73" x2="144.21" y2="162.72" class="em-tick"/>
+<line x1="157.47" y1="157.47" x2="153.22" y2="153.22" class="em-tick"/>
+<line x1="166.73" y1="148.67" x2="162.72" y2="144.21" class="em-tick"/>
+<line x1="176.45" y1="140.38" x2="172.67" y2="135.71" class="em-tick"/>
+<line x1="186.58" y1="132.60" x2="183.05" y2="127.75" class="em-tick"/>
+<line x1="197.11" y1="125.36" x2="193.84" y2="120.33" class="em-tick"/>
+<line x1="212.00" y1="125.62" x2="205.00" y2="113.49" class="em-tick-lg"/>
+<line x1="219.23" y1="112.59" x2="216.50" y2="107.25" class="em-tick"/>
+<line x1="230.76" y1="107.09" x2="228.32" y2="101.61" class="em-tick"/>
+<line x1="242.56" y1="102.21" x2="240.41" y2="96.60" class="em-tick"/>
+<line x1="254.60" y1="97.94" x2="252.75" y2="92.24" class="em-tick"/>
+<line x1="266.85" y1="94.31" x2="265.30" y2="88.52" class="em-tick"/>
+<line x1="279.27" y1="91.33" x2="278.02" y2="85.46" class="em-tick"/>
+<line x1="291.83" y1="89.00" x2="290.89" y2="83.08" class="em-tick"/>
+<line x1="304.50" y1="87.34" x2="303.87" y2="81.37" class="em-tick"/>
+<line x1="317.23" y1="86.33" x2="316.92" y2="80.34" class="em-tick"/>
+</g>
+<path d="M 228.02 160.28 A 198.0 198.0 0 0 1 431.98 160.28" class="em-arc" style="--i:0"/>
+<path d="M 459.90 180.57 A 198.0 198.0 0 0 1 522.93 374.54" class="em-arc" style="--i:1"/>
+<path d="M 512.26 407.36 A 198.0 198.0 0 0 1 347.26 527.25" class="em-arc" style="--i:2"/>
+<path d="M 312.74 527.25 A 198.0 198.0 0 0 1 147.74 407.36" class="em-arc" style="--i:3"/>
+<path d="M 137.07 374.54 A 198.0 198.0 0 0 1 200.10 180.57" class="em-arc" style="--i:4"/>
+</svg>
+      <img class="em-mark" src="assets/mark.png" alt="" />
     </div>
   </div>
 </section>
 
-<!-- METRICS -->
-<section class="metrics" aria-label="Track record">
-  <div class="wrap metrics-in">
-    <div class="mt"><div class="v" data-count="15" data-suffix="+">0</div><div class="l">Early-stage ventures backed</div></div>
-    <div class="mt"><div class="v" data-count="50" data-suffix="%+">0</div><div class="l">Portfolio raised Series A or B</div></div>
-    <div class="mt"><div class="v" data-count="5" data-suffix="">0</div><div class="l">Advisory mandates running now</div></div>
-    <div class="mt"><div class="v" data-count="4" data-suffix="">0</div><div class="l">Sectors covered: AI, FinTech, SaaS, Digital infrastructure</div></div>
-  </div>
-</section>
-
-<!-- FIRM -->
-<section class="sect on-light" id="firm">
-  <div class="wrap firm">
-    <div class="firm-body rv">
-      <div class="rule"></div>
-      <p class="kicker">About the firm</p>
-      <h2>A strategic advisory and business growth platform.</h2>
-      <p class="lede" style="margin-top:20px">Zeka BIR drives scalable growth, operational transformation and strategic execution across the FinTech, NBFC, MSME lending and technology ecosystems.</p>
-      <p>The firm works with <strong>startups, financial institutions and growth-stage businesses</strong> to strengthen market positioning, expand operations, build scalable business models and accelerate sustainable growth. Engagements cover business transformation, operating models, growth strategy, partnerships, stakeholder management, sales enablement and operational scalability.</p>
-      <p>Alongside advisory, Zeka BIR invests in early-stage companies and takes an active role in business building, strategic execution and market expansion for its portfolio.</p>
-      <p style="margin-bottom:0">Its focus is long-term value creation through institutional growth, scalable lending ecosystems and technology-led business innovation.</p>
-    </div>
-
+<!-- ABOUT US -->
+<section class="sect s-light alt" id="about">
+  <div class="wrap about">
     <div class="rv">
-      <div class="lead-card">
-        <div class="lead-photo-wrap">
-          <img class="lead-photo" src="assets/vikas-arora.jpg"
-               alt="Vikas Arora, Founder &amp; Principal, Zeka BIR Tech Solutions"
-               loading="lazy" />
-          <div class="lead-photo-grad">
-            <div class="lead-photo-role">Founder &amp; Principal</div>
-            <div class="lead-photo-name">Vikas Arora</div>
-          </div>
-        </div>
-        <div class="lead-bio">
-          <p>Zeka BIR is led by Vikas Arora, with deep expertise in institutional lending, MSME finance, supply chain finance, working capital solutions and technology-driven financial services.</p>
-          <p class="q">Every engagement starts with the numbers and ends with something running in the business.</p>
+      <p class="eyebrow">About Us</p>
+      <h2><span class="zk">Zeka</span> means intelligence.</h2>
+      <p class="lede" style="margin-top:22px">Cleverness. Quick thinking. Wit. <strong>BIR</strong> stands for Business Intelligence and Resilience.</p>
+      <p>Our objective is simple: help fast-growing businesses <strong>raise strategic debt</strong>. We bring two decades of exposure to lending, trade finance and supply chain finance, and we work through more than thirty deep partnerships with lenders.</p>
+      <p style="margin-bottom:0">For an owner, that means the right lender, the right structure and a file that stands up to credit — without losing months finding out.</p>
+      <div class="stats">
+        <div class="stat"><b>Two decades</b><span>Lending, trade finance, supply chain finance</span></div>
+        <div class="stat"><b>30+</b><span>Deep lender partnerships</span></div>
+      </div>
+    </div>
+    <div class="rv">
+      <div class="card">
+        <figure>
+          <img src="assets/vikas-arora.jpg" alt="Vikas Arora, Founder and Principal of Zeka BIR Tech Solutions" loading="lazy" width="900" height="1029" />
+          <figcaption>
+            <div class="role">Founder &amp; Principal</div>
+            <div class="nm">Vikas Arora</div>
+          </figcaption>
+        </figure>
+        <div class="body">
+          <p>Two decades in institutional lending, MSME finance, trade finance and supply chain finance — and the lender relationships that come with it.</p>
         </div>
       </div>
-      <div class="whowith">
-        <div><span>Promoters and boards</span><span>MSME, growth-stage</span></div>
-        <div><span>NBFCs and lenders</span><span>Institutional lending</span></div>
-        <div><span>FinTech founders</span><span>Seed to Series B</span></div>
-        <div><span>Technology businesses</span><span>SaaS, AI, digital infra</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOCUS -->
+<section class="sect focus s-dark" id="focus">
+  <div class="wrap">
+    <div class="head rv" style="max-width:52ch">
+      <p class="eyebrow">Focus</p>
+      <h2>Five things we are hired to do.</h2>
+    </div>
+  </div>
+  <div class="wrap fc">
+    <!-- revolving orbit -->
+    <div class="orbit rv" id="orbit">
+      <span class="orbit-marker" aria-hidden="true"></span>
+      <span class="orbit-spoke" aria-hidden="true"></span>
+      <svg class="orbit-rings" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<circle cx="250.0" cy="250.0" r="190" class="or-track"/>
+<circle cx="250.0" cy="250.0" r="150" class="or-faint"/>
+<circle cx="250.0" cy="250.0" r="108" class="or-faint"/>
+<g class="or-ticks">
+<line x1="250.00" y1="71.00" x2="250.00" y2="60.00" class="or-tick-lg"/>
+<line x1="266.12" y1="65.70" x2="266.56" y2="60.72" class="or-tick"/>
+<line x1="282.12" y1="67.81" x2="282.99" y2="62.89" class="or-tick"/>
+<line x1="297.88" y1="71.30" x2="299.18" y2="66.47" class="or-tick"/>
+<line x1="313.27" y1="76.16" x2="314.98" y2="71.46" class="or-tick"/>
+<line x1="328.18" y1="82.33" x2="330.30" y2="77.80" class="or-tick"/>
+<line x1="339.50" y1="94.98" x2="345.00" y2="85.46" class="or-tick-lg"/>
+<line x1="356.11" y1="98.46" x2="358.98" y2="94.36" class="or-tick"/>
+<line x1="368.92" y1="108.28" x2="372.13" y2="104.45" class="or-tick"/>
+<line x1="380.81" y1="119.19" x2="384.35" y2="115.65" class="or-tick"/>
+<line x1="391.72" y1="131.08" x2="395.55" y2="127.87" class="or-tick"/>
+<line x1="401.54" y1="143.89" x2="405.64" y2="141.02" class="or-tick"/>
+<line x1="405.02" y1="160.50" x2="414.54" y2="155.00" class="or-tick-lg"/>
+<line x1="417.67" y1="171.82" x2="422.20" y2="169.70" class="or-tick"/>
+<line x1="423.84" y1="186.73" x2="428.54" y2="185.02" class="or-tick"/>
+<line x1="428.70" y1="202.12" x2="433.53" y2="200.82" class="or-tick"/>
+<line x1="432.19" y1="217.88" x2="437.11" y2="217.01" class="or-tick"/>
+<line x1="434.30" y1="233.88" x2="439.28" y2="233.44" class="or-tick"/>
+<line x1="429.00" y1="250.00" x2="440.00" y2="250.00" class="or-tick-lg"/>
+<line x1="434.30" y1="266.12" x2="439.28" y2="266.56" class="or-tick"/>
+<line x1="432.19" y1="282.12" x2="437.11" y2="282.99" class="or-tick"/>
+<line x1="428.70" y1="297.88" x2="433.53" y2="299.18" class="or-tick"/>
+<line x1="423.84" y1="313.27" x2="428.54" y2="314.98" class="or-tick"/>
+<line x1="417.67" y1="328.18" x2="422.20" y2="330.30" class="or-tick"/>
+<line x1="405.02" y1="339.50" x2="414.54" y2="345.00" class="or-tick-lg"/>
+<line x1="401.54" y1="356.11" x2="405.64" y2="358.98" class="or-tick"/>
+<line x1="391.72" y1="368.92" x2="395.55" y2="372.13" class="or-tick"/>
+<line x1="380.81" y1="380.81" x2="384.35" y2="384.35" class="or-tick"/>
+<line x1="368.92" y1="391.72" x2="372.13" y2="395.55" class="or-tick"/>
+<line x1="356.11" y1="401.54" x2="358.98" y2="405.64" class="or-tick"/>
+<line x1="339.50" y1="405.02" x2="345.00" y2="414.54" class="or-tick-lg"/>
+<line x1="328.18" y1="417.67" x2="330.30" y2="422.20" class="or-tick"/>
+<line x1="313.27" y1="423.84" x2="314.98" y2="428.54" class="or-tick"/>
+<line x1="297.88" y1="428.70" x2="299.18" y2="433.53" class="or-tick"/>
+<line x1="282.12" y1="432.19" x2="282.99" y2="437.11" class="or-tick"/>
+<line x1="266.12" y1="434.30" x2="266.56" y2="439.28" class="or-tick"/>
+<line x1="250.00" y1="429.00" x2="250.00" y2="440.00" class="or-tick-lg"/>
+<line x1="233.88" y1="434.30" x2="233.44" y2="439.28" class="or-tick"/>
+<line x1="217.88" y1="432.19" x2="217.01" y2="437.11" class="or-tick"/>
+<line x1="202.12" y1="428.70" x2="200.82" y2="433.53" class="or-tick"/>
+<line x1="186.73" y1="423.84" x2="185.02" y2="428.54" class="or-tick"/>
+<line x1="171.82" y1="417.67" x2="169.70" y2="422.20" class="or-tick"/>
+<line x1="160.50" y1="405.02" x2="155.00" y2="414.54" class="or-tick-lg"/>
+<line x1="143.89" y1="401.54" x2="141.02" y2="405.64" class="or-tick"/>
+<line x1="131.08" y1="391.72" x2="127.87" y2="395.55" class="or-tick"/>
+<line x1="119.19" y1="380.81" x2="115.65" y2="384.35" class="or-tick"/>
+<line x1="108.28" y1="368.92" x2="104.45" y2="372.13" class="or-tick"/>
+<line x1="98.46" y1="356.11" x2="94.36" y2="358.98" class="or-tick"/>
+<line x1="94.98" y1="339.50" x2="85.46" y2="345.00" class="or-tick-lg"/>
+<line x1="82.33" y1="328.18" x2="77.80" y2="330.30" class="or-tick"/>
+<line x1="76.16" y1="313.27" x2="71.46" y2="314.98" class="or-tick"/>
+<line x1="71.30" y1="297.88" x2="66.47" y2="299.18" class="or-tick"/>
+<line x1="67.81" y1="282.12" x2="62.89" y2="282.99" class="or-tick"/>
+<line x1="65.70" y1="266.12" x2="60.72" y2="266.56" class="or-tick"/>
+<line x1="71.00" y1="250.00" x2="60.00" y2="250.00" class="or-tick-lg"/>
+<line x1="65.70" y1="233.88" x2="60.72" y2="233.44" class="or-tick"/>
+<line x1="67.81" y1="217.88" x2="62.89" y2="217.01" class="or-tick"/>
+<line x1="71.30" y1="202.12" x2="66.47" y2="200.82" class="or-tick"/>
+<line x1="76.16" y1="186.73" x2="71.46" y2="185.02" class="or-tick"/>
+<line x1="82.33" y1="171.82" x2="77.80" y2="169.70" class="or-tick"/>
+<line x1="94.98" y1="160.50" x2="85.46" y2="155.00" class="or-tick-lg"/>
+<line x1="98.46" y1="143.89" x2="94.36" y2="141.02" class="or-tick"/>
+<line x1="108.28" y1="131.08" x2="104.45" y2="127.87" class="or-tick"/>
+<line x1="119.19" y1="119.19" x2="115.65" y2="115.65" class="or-tick"/>
+<line x1="131.08" y1="108.28" x2="127.87" y2="104.45" class="or-tick"/>
+<line x1="143.89" y1="98.46" x2="141.02" y2="94.36" class="or-tick"/>
+<line x1="160.50" y1="94.98" x2="155.00" y2="85.46" class="or-tick-lg"/>
+<line x1="171.82" y1="82.33" x2="169.70" y2="77.80" class="or-tick"/>
+<line x1="186.73" y1="76.16" x2="185.02" y2="71.46" class="or-tick"/>
+<line x1="202.12" y1="71.30" x2="200.82" y2="66.47" class="or-tick"/>
+<line x1="217.88" y1="67.81" x2="217.01" y2="62.89" class="or-tick"/>
+<line x1="233.88" y1="65.70" x2="233.44" y2="60.72" class="or-tick"/>
+</g>
+</svg>
+      <div class="orbit-ring" id="orbitRing" style="--rot:0deg" role="tablist" aria-label="Areas of focus">
+                <div class="onode on" style="--a:0deg">
+          <button class="oface" role="tab" id="fc-tab-0" aria-controls="fc-panel-0"
+                  aria-selected="true" tabindex="0">
+            <span class="odot"></span>
+            <span class="olab"><em>01</em>Scale</span>
+          </button>
+        </div>
+        <div class="onode" style="--a:72deg">
+          <button class="oface" role="tab" id="fc-tab-1" aria-controls="fc-panel-1"
+                  aria-selected="false" tabindex="-1">
+            <span class="odot"></span>
+            <span class="olab"><em>02</em>Opportunity</span>
+          </button>
+        </div>
+        <div class="onode" style="--a:144deg">
+          <button class="oface" role="tab" id="fc-tab-2" aria-controls="fc-panel-2"
+                  aria-selected="false" tabindex="-1">
+            <span class="odot"></span>
+            <span class="olab"><em>03</em>Transformation</span>
+          </button>
+        </div>
+        <div class="onode" style="--a:216deg">
+          <button class="oface" role="tab" id="fc-tab-3" aria-controls="fc-panel-3"
+                  aria-selected="false" tabindex="-1">
+            <span class="odot"></span>
+            <span class="olab"><em>04</em>Capital</span>
+          </button>
+        </div>
+        <div class="onode" style="--a:288deg">
+          <button class="oface" role="tab" id="fc-tab-4" aria-controls="fc-panel-4"
+                  aria-selected="false" tabindex="-1">
+            <span class="odot"></span>
+            <span class="olab"><em>05</em>Partnerships</span>
+          </button>
+        </div>
+      </div>
+      <span class="orbit-hub" aria-hidden="true"><img src="assets/mark.png" alt="" /></span>
+    </div>
+
+    <!-- active item -->
+    <div class="fc-detail rv">
+      <div class="fc-texts">
+                <div class="fc-text on" id="fc-text-0" aria-hidden="false">
+          <span class="fc-num">01</span>
+          <h3>Scale</h3>
+          <p>Grow volume without losing control of the business.</p>
+        </div>
+        <div class="fc-text" id="fc-text-1" aria-hidden="false">
+          <span class="fc-num">02</span>
+          <h3>Open business opportunity</h3>
+          <p>Open new markets, products and distribution.</p>
+        </div>
+        <div class="fc-text" id="fc-text-2" aria-hidden="false">
+          <span class="fc-num">03</span>
+          <h3>Business transformation</h3>
+          <p>Rebuild the operating model around how you actually run.</p>
+        </div>
+        <div class="fc-text" id="fc-text-3" aria-hidden="false">
+          <span class="fc-num">04</span>
+          <h3>Raise strategic capital</h3>
+          <p>Debt and equity, structured on your terms.</p>
+        </div>
+        <div class="fc-text" id="fc-text-4" aria-hidden="false">
+          <span class="fc-num">05</span>
+          <h3>Strategic partnerships</h3>
+          <p>Open doors to lenders, platforms and institutions.</p>
+        </div>
+      </div>
+      <div class="fc-stage" id="fcStage">
+                <div class="fc-panel on" id="fc-panel-0" role="tabpanel"
+             aria-labelledby="fc-tab-0" aria-hidden="false">
+<svg class="fx" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scale">
+<line x1="40" y1="330" x2="520" y2="330" class="fx-base"/>
+<rect x="56" y="292" width="30" height="38" class="fx-bar" style="--i:0"/>
+<rect x="114" y="262" width="30" height="68" class="fx-bar" style="--i:1"/>
+<rect x="172" y="232" width="30" height="98" class="fx-bar" style="--i:2"/>
+<rect x="230" y="202" width="30" height="128" class="fx-bar" style="--i:3"/>
+<rect x="288" y="172" width="30" height="158" class="fx-bar" style="--i:4"/>
+<rect x="346" y="142" width="30" height="188" class="fx-bar" style="--i:5"/>
+<rect x="404" y="112" width="30" height="218" class="fx-bar" style="--i:6"/>
+<rect x="462" y="82" width="30" height="248" class="fx-bar" style="--i:7"/>
+<path d="M 71 276 L 129 246 L 187 216 L 245 186 L 303 156 L 361 126 L 419 96 L 477 66" class="fx-trend"/>
+<circle cx="71" cy="276" r="3.5" class="fx-node" style="--i:0"/>
+<circle cx="129" cy="246" r="3.5" class="fx-node" style="--i:1"/>
+<circle cx="187" cy="216" r="3.5" class="fx-node" style="--i:2"/>
+<circle cx="245" cy="186" r="3.5" class="fx-node" style="--i:3"/>
+<circle cx="303" cy="156" r="3.5" class="fx-node" style="--i:4"/>
+<circle cx="361" cy="126" r="3.5" class="fx-node" style="--i:5"/>
+<circle cx="419" cy="96" r="3.5" class="fx-node" style="--i:6"/>
+<circle cx="477" cy="66" r="3.5" class="fx-node" style="--i:7"/>
+</svg>
+        </div>
+        <div class="fc-panel" id="fc-panel-1" role="tabpanel"
+             aria-labelledby="fc-tab-1" aria-hidden="true">
+<svg class="fx" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open business opportunity">
+<line x1="40" y1="330" x2="520" y2="330" class="fx-base"/>
+<path d="M 166 318 A 88 88 0 0 0 105.2 234.3" class="fx-wave" style="--i:0"/>
+<path d="M 228 318 A 150 150 0 0 0 124.4 175.3" class="fx-wave" style="--i:1"/>
+<path d="M 290 318 A 212 212 0 0 0 143.5 116.4" class="fx-wave" style="--i:2"/>
+<path d="M 352 318 A 274 274 0 0 0 162.7 57.4" class="fx-wave" style="--i:3"/>
+<path d="M 414 318 A 336 336 0 0 0 181.8 -1.6" class="fx-wave" style="--i:4"/>
+<line x1="78" y1="318" x2="206.1" y2="286.1" class="fx-ray" style="--i:0"/>
+<rect x="201.1" y="281.1" width="10" height="10" class="fx-mark" style="--i:0"/>
+<line x1="78" y1="318" x2="259.5" y2="204.6" class="fx-ray" style="--i:1"/>
+<rect x="254.5" y="199.6" width="10" height="10" class="fx-mark" style="--i:1"/>
+<line x1="78" y1="318" x2="195.0" y2="168.3" class="fx-ray" style="--i:2"/>
+<rect x="190.0" y="163.3" width="10" height="10" class="fx-mark" style="--i:2"/>
+<line x1="78" y1="318" x2="352.1" y2="196.0" class="fx-ray" style="--i:3"/>
+<rect x="347.1" y="191.0" width="10" height="10" class="fx-mark" style="--i:3"/>
+<line x1="78" y1="318" x2="209.0" y2="91.1" class="fx-ray" style="--i:4"/>
+<rect x="204.0" y="86.1" width="10" height="10" class="fx-mark" style="--i:4"/>
+<line x1="78" y1="318" x2="339.6" y2="82.5" class="fx-ray" style="--i:5"/>
+<rect x="334.6" y="77.5" width="10" height="10" class="fx-mark" style="--i:5"/>
+<circle cx="78" cy="318" r="7" class="fx-origin"/>
+</svg>
+        </div>
+        <div class="fc-panel" id="fc-panel-2" role="tabpanel"
+             aria-labelledby="fc-tab-2" aria-hidden="true">
+<svg class="fx" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Business transformation">
+<line x1="70" y1="96" x2="258" y2="204" class="fx-link a" style="--i:0"/>
+<line x1="128" y1="158" x2="258" y2="204" class="fx-link a" style="--i:1"/>
+<line x1="62" y1="214" x2="258" y2="204" class="fx-link a" style="--i:2"/>
+<line x1="142" y1="262" x2="258" y2="204" class="fx-link a" style="--i:3"/>
+<line x1="88" y1="318" x2="258" y2="204" class="fx-link a" style="--i:4"/>
+<line x1="160" y1="86" x2="258" y2="204" class="fx-link a" style="--i:5"/>
+<line x1="258" y1="204" x2="376" y2="96" class="fx-link b" style="--i:0"/>
+<line x1="376" y1="96" x2="504" y2="96" class="fx-rail" style="--i:0"/>
+<line x1="258" y1="204" x2="376" y2="152" class="fx-link b" style="--i:1"/>
+<line x1="376" y1="152" x2="504" y2="152" class="fx-rail" style="--i:1"/>
+<line x1="258" y1="204" x2="376" y2="208" class="fx-link b" style="--i:2"/>
+<line x1="376" y1="208" x2="504" y2="208" class="fx-rail" style="--i:2"/>
+<line x1="258" y1="204" x2="376" y2="264" class="fx-link b" style="--i:3"/>
+<line x1="376" y1="264" x2="504" y2="264" class="fx-rail" style="--i:3"/>
+<line x1="258" y1="204" x2="376" y2="320" class="fx-link b" style="--i:4"/>
+<line x1="376" y1="320" x2="504" y2="320" class="fx-rail" style="--i:4"/>
+<circle cx="70" cy="96" r="5" class="fx-old" style="--i:0"/>
+<circle cx="128" cy="158" r="5" class="fx-old" style="--i:1"/>
+<circle cx="62" cy="214" r="5" class="fx-old" style="--i:2"/>
+<circle cx="142" cy="262" r="5" class="fx-old" style="--i:3"/>
+<circle cx="88" cy="318" r="5" class="fx-old" style="--i:4"/>
+<circle cx="160" cy="86" r="5" class="fx-old" style="--i:5"/>
+<rect x="371" y="91" width="10" height="10" class="fx-new" style="--i:0"/>
+<rect x="371" y="147" width="10" height="10" class="fx-new" style="--i:1"/>
+<rect x="371" y="203" width="10" height="10" class="fx-new" style="--i:2"/>
+<rect x="371" y="259" width="10" height="10" class="fx-new" style="--i:3"/>
+<rect x="371" y="315" width="10" height="10" class="fx-new" style="--i:4"/>
+<circle cx="258" cy="204" r="27" class="fx-hub-ring"/>
+<circle cx="258" cy="204" r="17" class="fx-hub"/>
+</svg>
+        </div>
+        <div class="fc-panel" id="fc-panel-3" role="tabpanel"
+             aria-labelledby="fc-tab-3" aria-hidden="true">
+<svg class="fx" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Raise strategic capital">
+<rect x="72" y="96" width="392" height="46" class="fx-track" style="--i:0"/>
+<rect x="72" y="96" width="392" height="46" class="fx-fill" style="--i:0"/>
+<line x1="72" y1="142" x2="464" y2="142" class="fx-edge" style="--i:0"/>
+<rect x="72" y="154" width="340" height="46" class="fx-track" style="--i:1"/>
+<rect x="72" y="154" width="340" height="46" class="fx-fill" style="--i:1"/>
+<line x1="72" y1="200" x2="412" y2="200" class="fx-edge" style="--i:1"/>
+<rect x="72" y="212" width="288" height="46" class="fx-track" style="--i:2"/>
+<rect x="72" y="212" width="288" height="46" class="fx-fill" style="--i:2"/>
+<line x1="72" y1="258" x2="360" y2="258" class="fx-edge" style="--i:2"/>
+<rect x="72" y="270" width="232" height="46" class="fx-track" style="--i:3"/>
+<rect x="72" y="270" width="232" height="46" class="fx-fill" style="--i:3"/>
+<line x1="72" y1="316" x2="304" y2="316" class="fx-edge" style="--i:3"/>
+<line x1="72" y1="80" x2="72" y2="324" class="fx-axis"/>
+</svg>
+        </div>
+        <div class="fc-panel" id="fc-panel-4" role="tabpanel"
+             aria-labelledby="fc-tab-4" aria-hidden="true">
+<svg class="fx" viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Strategic partnerships">
+<path d="M 92 110 C 280.0 110, 280.0 140, 468 140" class="fx-tie" style="--i:0"/>
+<path d="M 92 110 C 280.0 110, 280.0 270, 468 270" class="fx-tie" style="--i:2"/>
+<path d="M 92 175 C 280.0 175, 280.0 205, 468 205" class="fx-tie" style="--i:2"/>
+<path d="M 92 240 C 280.0 240, 280.0 140, 468 140" class="fx-tie" style="--i:2"/>
+<path d="M 92 240 C 280.0 240, 280.0 270, 468 270" class="fx-tie" style="--i:4"/>
+<path d="M 92 305 C 280.0 305, 280.0 205, 468 205" class="fx-tie" style="--i:4"/>
+<rect x="85" y="103" width="14" height="14" class="fx-endA" style="--i:0"/>
+<rect x="85" y="168" width="14" height="14" class="fx-endA" style="--i:1"/>
+<rect x="85" y="233" width="14" height="14" class="fx-endA" style="--i:2"/>
+<rect x="85" y="298" width="14" height="14" class="fx-endA" style="--i:3"/>
+<circle cx="468" cy="140" r="8" class="fx-endB" style="--i:0"/>
+<circle cx="468" cy="205" r="8" class="fx-endB" style="--i:1"/>
+<circle cx="468" cy="270" r="8" class="fx-endB" style="--i:2"/>
+</svg>
+        </div>
+        <div class="fc-cap" id="fcCap">01 &#8212; Scale</div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section class="sect dark-2 grain" id="services">
+<section class="sect s-light" id="services">
   <div class="wrap">
     <div class="head rv">
-      <div class="rule"></div>
-      <p class="kicker">Services</p>
-      <h2>What we do.</h2>
-      <p class="lede">Six areas of work. Each one is scoped to a decision the business is already facing, and carried through to execution.</p>
+      <p class="eyebrow">Services</p>
+      <h2>What we do for you.</h2>
     </div>
+  </div>
+  <div class="wrap">
     <div class="svcs">
-      <article class="svc rv">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 12h4"/><path d="M10 8h4"/><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"/><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/></svg></div>
-        <h3>Mortgage Lending</h3>
-        <p>Building and scaling secured lending businesses: product construct, credit policy, sourcing channels, collections discipline and portfolio quality across LAP and mortgage books.</p>
-        <ul><li>Credit policy</li><li>Sourcing</li><li>Portfolio quality</li></ul>
-      </article>
-
-      <article class="svc rv">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg></div>
-        <h3>Financial Advisory</h3>
-        <p>Capital structure, debt and equity readiness, lender and investor conversations, and support through the transaction so the raise closes on the terms the business needs.</p>
-        <ul><li>Fundraising readiness</li><li>Capital structure</li><li>Deal support</li></ul>
-      </article>
-
-      <article class="svc rv">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg></div>
-        <h3>Business Consulting</h3>
-        <p>Operating models, market expansion, partnerships, sales enablement and organisation design, so the business can take on more volume without losing control of what already works.</p>
-        <ul><li>Operating model</li><li>Market expansion</li><li>Partnerships</li></ul>
-      </article>
-
-      <article class="svc rv">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M8 18v-1"/><path d="M12 18v-6"/><path d="M16 18v-3"/></svg></div>
-        <h3>Financial Planning</h3>
-        <p>Forecasting, unit economics, capital allocation and reporting. Business plans built on assumptions that hold, and an MIS the board and the lenders can both work from.</p>
-        <ul><li>Forecasting</li><li>Unit economics</li><li>MIS and reporting</li></ul>
-      </article>
-
-      <article class="svc rv">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg></div>
-        <h3>Leadership Development</h3>
-        <p>Building the management layer between the promoter and the business: CXO capability, governance rhythm, stakeholder management and succession planning that survives scale.</p>
-        <ul><li>CXO capability</li><li>Governance</li><li>Succession</li></ul>
-      </article>
-
-      <article class="svc rv">
-        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3"/><path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4"/><path d="M5 21h14"/></svg></div>
-        <h3>Investment &amp; Venture Building</h3>
-        <p>Early-stage capital for companies in AI, FinTech, SaaS and digital infrastructure, followed by hands-on work on market intelligence, PR positioning, partnerships and operational scaling.</p>
-        <ul><li>Seed capital</li><li>Venture building</li><li>Scale support</li></ul>
-      </article>
+      <article class="svc rv"><div class="n">01</div><h3>Debt Advisory</h3><p>The right structure, the right lender, and a file that clears credit the first time.</p></article>
+      <article class="svc rv"><div class="n">02</div><h3>Trade &amp; Supply Chain Finance</h3><p>Working capital tied to your actual trade cycle — buyers, suppliers and invoices.</p></article>
+      <article class="svc rv"><div class="n">03</div><h3>Mortgage &amp; Secured Lending</h3><p>Loan against property and secured facilities structured around real cash flow.</p></article>
+      <article class="svc rv"><div class="n">04</div><h3>Financial Planning</h3><p>Forecasts, unit economics and reporting your board and your lenders can both read.</p></article>
+      <article class="svc rv"><div class="n">05</div><h3>Business Consulting</h3><p>Operating model, market expansion and partnerships, built to carry more volume.</p></article>
+      <article class="svc rv"><div class="n">06</div><h3>Leadership Development</h3><p>The management layer between the owner and the business, ready for the next stage.</p></article>
     </div>
   </div>
 </section>
 
-<!-- EXPERTISE -->
-<section class="sect grain" id="expertise" style="padding-bottom:0">
-  <div class="wrap">
-    <div class="head rv" style="max-width:56ch">
-      <div class="rule"></div>
-      <p class="kicker">Expertise</p>
-      <h2>Where the depth sits.</h2>
-      <p class="lede">Institutional lending, MSME finance, supply chain finance, working capital and technology-driven financial services: domains where credit, structure and technology have to be solved at the same time.</p>
-    </div>
-  </div>
-  <div class="marq" style="margin-top:clamp(20px,3vw,34px)">
-    <div class="marq-track" id="marq">
-      <span>Institutional lending</span><span>MSME finance</span><span>Supply chain finance</span><span>Working capital</span><span>Co-lending &amp; partnerships</span><span>Technology-driven financial services</span><span>Business transformation</span><span>Operating models</span><span>Growth strategy</span><span>Stakeholder management</span><span>Sales enablement</span><span>Operational scalability</span><span>Market intelligence</span><span>PR positioning</span><span>Fundraising readiness</span>
-    </div>
-  </div>
-  <div style="height:clamp(60px,7vw,100px)"></div>
-</section>
-
-<!-- APPROACH -->
-<section class="sect on-light" id="approach">
-  <div class="wrap">
-    <div class="head rv">
-      <div class="rule"></div>
-      <p class="kicker">Approach</p>
-      <h2>How an engagement runs.</h2>
-      <p class="lede">Four stages, in order. Most of the work sits in the last two.</p>
-    </div>
-    <div class="stages">
-      <div class="stg rv"><div class="n">STAGE 01</div><h3>Assess</h3><p>A close read of economics, portfolio, channels, organisation and systems, to separate a growth problem from a structural one and put numbers against both.</p></div>
-      <div class="stg rv"><div class="n">STAGE 02</div><h3>Plan</h3><p>The operating model, product construct and capital plan that follow from the assessment, agreed with the promoter and sequenced against available cash.</p></div>
-      <div class="stg rv"><div class="n">STAGE 03</div><h3>Execute</h3><p>Working alongside your team to open partnerships, launch lending programmes, install the sales motion and set a reporting cadence that holds.</p></div>
-      <div class="stg rv"><div class="n">STAGE 04</div><h3>Institutionalise</h3><p>Handover into governance: leadership capability, MIS, controls and an investor-grade narrative, so the business runs and raises without external support.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- INVESTMENTS -->
-<section class="sect dark-2 grain" id="investments">
-  <div class="wrap">
-    <div class="head rv">
-      <div class="rule"></div>
-      <p class="kicker">Investments &amp; portfolio</p>
-      <h2>More than 15 ventures backed. Over half have raised Series A or B.</h2>
-      <p class="lede">Capital is the starting point. Zeka BIR stays involved in business building, strategic execution, market expansion and long-term growth for its portfolio companies.</p>
-    </div>
-    <div class="inv">
-      <div class="rv">
-        <div class="panel">
-          <h3>What portfolio companies get</h3>
-          <div class="rows">
-            <div><span>Market intelligence</span><span>Sizing &amp; positioning</span></div>
-            <div><span>Fundraising readiness</span><span>Data room to term sheet</span></div>
-            <div><span>Strategic partnerships</span><span>Lenders &amp; platforms</span></div>
-            <div><span>PR positioning</span><span>Narrative &amp; visibility</span></div>
-            <div><span>Operational scaling</span><span>Process &amp; organisation</span></div>
-            <div><span>Innovation-led growth</span><span>New revenue lines</span></div>
-          </div>
-        </div>
-      </div>
-      <div class="rv">
-        <p class="kicker">Sectors we evaluate</p>
-        <div class="sectors">
-          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16v5"/><path d="M16 14.639V21"/><path d="M20 10.656V21"/><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"/><path d="M4 18.463V21"/><path d="M8 14.656V21"/></svg><div><b>AI</b><small>Applied &amp; infrastructure</small></div></div>
-          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg><div><b>FinTech</b><small>Lending &amp; payments</small></div></div>
-          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg><div><b>SaaS</b><small>B2B software</small></div></div>
-          <div class="sec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg><div><b>Digital infrastructure</b><small>Rails &amp; platforms</small></div></div>
-        </div>
-        <p style="margin-top:22px;font-size:.9rem;color:rgba(226,233,242,.6)">Advisory mandates currently run across NBFCs, FinTech platforms, MSME lenders and technology businesses. Client references are shared on request.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA BAND -->
-<section class="band grain">
-  <div class="wrap band-in">
-    <div class="rv">
-      <h2>Start with a conversation about the business.</h2>
-      <p>Share where things stand today and what you are trying to change. We come back with a view before we come back with a proposal.</p>
-    </div>
-    <a class="btn btn-gold rv" href="#contact">Request a conversation <span class="arw">→</span></a>
+<!-- CTA -->
+<section class="cta s-dark">
+  <div class="wrap cta-in">
+    <div class="rv"><h2>Tell us what you are trying to fund.</h2><p>A short note on the business and the requirement is enough to start.</p></div>
+    <a class="btn rv" href="#contact">Speak to us <span class="a">&#8594;</span></a>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="sect on-light" id="contact">
+<section class="sect s-light alt" id="contact">
   <div class="wrap ct">
     <div class="rv">
-      <div class="rule"></div>
-      <p class="kicker">Contact</p>
+      <p class="eyebrow">Contact Us</p>
       <h2>Get in touch.</h2>
-      <p class="lede" style="margin-top:18px">Write to us with a short note on the business and the decision in front of you. We reply within two working days.</p>
       <dl>
         <dt>Email</dt><dd><a href="mailto:founder@zekabir.com">founder@zekabir.com</a></dd>
-        <dt>Phone</dt><dd><a href="tel:+919999999999">+91 99999 99999</a></dd>
-        <dt>Office</dt><dd>Zeka BIR Tech Solutions Pvt. Ltd.<br />Regal Building, 1st Floor<br />Parliament Street (Sansad Marg)<br />Connaught Place, New Delhi – 110001</dd>
+        <dt>Office</dt><dd>Regal Building, 1st Floor<br />Parliament Street (Sansad Marg)<br />Connaught Place, New Delhi &#8211; 110001</dd>
       </dl>
     </div>
-
     <form id="cform" novalidate class="rv">
       <div class="fg">
-        <div class="fld"><label for="f-name">Name <span class="r">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required /></div>
-        <div class="fld"><label for="f-org">Company <span class="r">*</span></label><input id="f-org" name="company" type="text" autocomplete="organization" required /></div>
-        <div class="fld"><label for="f-role">Your role</label><input id="f-role" name="role" type="text" placeholder="Promoter, Director, CXO" autocomplete="organization-title" /></div>
-        <div class="fld"><label for="f-email">Email <span class="r">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required /></div>
+        <div class="fld"><label for="f-name">Name <i>*</i></label><input id="f-name" name="name" type="text" autocomplete="name" required /></div>
+        <div class="fld"><label for="f-org">Business <i>*</i></label><input id="f-org" name="company" type="text" autocomplete="organization" required /></div>
+        <div class="fld"><label for="f-email">Email <i>*</i></label><input id="f-email" name="email" type="email" autocomplete="email" required /></div>
         <div class="fld"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" /></div>
-        <div class="fld"><label for="f-int">Area of interest</label>
+        <div class="fld full"><label for="f-int">What do you need</label>
           <select id="f-int" name="interest">
-            <option>Mortgage lending</option><option>Financial advisory</option><option>Business consulting</option>
-            <option>Financial planning</option><option>Leadership development</option><option>Investment / venture building</option><option>Something else</option>
-          </select>
-        </div>
-        <div class="fld full"><label for="f-msg">Brief context <span class="r">*</span></label><textarea id="f-msg" name="message" required placeholder="Where the business is today and what you are trying to change."></textarea></div>
+            <option>Raise strategic debt</option>
+            <option>Trade &amp; supply chain finance</option>
+            <option>Mortgage &amp; secured lending</option>
+            <option>Scale the business</option>
+            <option>New business opportunity</option>
+            <option>Business transformation</option>
+            <option>Strategic partnerships</option>
+            <option>Something else</option>
+          </select></div>
+        <div class="fld full"><label for="f-msg">Brief context <i>*</i></label><textarea id="f-msg" name="message" required placeholder="What the business does, and what you are trying to fund."></textarea></div>
       </div>
       <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" />
       <div class="ff">
-        <p class="note">Everything you share stays confidential.</p>
-        <button class="btn btn-ink" type="submit" id="submit">Send enquiry <span class="arw">→</span></button>
+        <p class="note">We reply within two working days. Everything you share stays confidential.</p>
+        <button class="btn" type="submit" id="submit">Send enquiry <span class="a">&#8594;</span></button>
       </div>
       <div class="msg" id="fmsg" role="status" aria-live="polite"></div>
     </form>
@@ -737,35 +1005,25 @@ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3
 </section>
 </main>
 
-<footer class="ftr">
+<footer class="ftr s-dark">
   <div class="wrap">
     <div class="ftr-top">
       <div>
-        <a class="logo" href="#top" aria-label="Zeka BIR — home">
-          <img class="mk" src="assets/mark.png" alt="" width="44" height="44" />
-          <span class="logo-txt"><span class="logo-name">ZEKA BIR</span><span class="logo-sub">TECH SOLUTIONS PVT. LTD.</span></span>
+        <a class="brand" href="#top" aria-label="Zeka BIR — home">
+          <img src="assets/mark.png" alt="" width="46" height="46" />
+          <span class="brand-t"><span class="brand-n">ZEKA BIR</span><span class="brand-s">Tech Solutions Pvt. Ltd.</span></span>
         </a>
-        <p>Business Intelligence and Resilience. Strategic advisory, investment and business building across FinTech, NBFC, MSME lending and technology.</p>
+        <p>Business Intelligence and Resilience. Helping fast-growing businesses raise strategic debt.</p>
       </div>
-      <div>
-        <h5>Navigate</h5>
-        <ul>
-          <li><a href="#firm">Firm</a></li><li><a href="#services">Services</a></li>
-          <li><a href="#expertise">Expertise</a></li><li><a href="#approach">Approach</a></li>
-          <li><a href="#investments">Investments</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Get in touch</h5>
-        <ul>
-          <li><a href="mailto:founder@zekabir.com">founder@zekabir.com</a></li>
-          <li><a href="tel:+919999999999">+91 99999 99999</a></li>
-          <li><a href="#contact">Enquiry form</a></li>
-        </ul>
-      </div>
+      <div><h5>Navigate</h5><ul>
+        <li><a href="#about">About Us</a></li><li><a href="#focus">Focus</a></li>
+        <li><a href="#services">Services</a></li><li><a href="#contact">Contact Us</a></li></ul></div>
+      <div><h5>Contact</h5><ul>
+        <li><a href="mailto:founder@zekabir.com">founder@zekabir.com</a></li>
+        <li>Connaught Place, New Delhi</li></ul></div>
     </div>
     <div class="ftr-bot">
-      <span>© <span id="yr">2026</span> Zeka BIR Tech Solutions Pvt. Ltd.</span>
+      <span>&#169; <span id="yr">2026</span> Zeka BIR Tech Solutions Pvt. Ltd.</span>
       <span>All rights reserved</span>
     </div>
   </div>
@@ -777,11 +1035,11 @@ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   document.getElementById("yr").textContent = new Date().getFullYear();
 
-  /* header + progress bar */
+  /* header + progress */
   var hdr = document.getElementById("hdr"), prog = document.getElementById("prog"), tick = false;
   function onScroll(){
     var y = window.scrollY || document.documentElement.scrollTop;
-    hdr.classList.toggle("solid", y > 20);
+    hdr.classList.toggle("on", y > 18);
     var h = document.documentElement.scrollHeight - window.innerHeight;
     prog.style.width = (h > 0 ? Math.min(y/h,1)*100 : 0) + "%";
     tick = false;
@@ -793,55 +1051,31 @@ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3
   var burger = document.getElementById("burger"), drawer = document.getElementById("drawer");
   function setNav(o){
     document.body.classList.toggle("nav-open", o);
-    burger.setAttribute("aria-expanded", o ? "true":"false");
-    burger.setAttribute("aria-label", o ? "Close menu":"Open menu");
+    burger.setAttribute("aria-expanded", o ? "true" : "false");
+    burger.setAttribute("aria-label", o ? "Close menu" : "Open menu");
   }
   burger.addEventListener("click", function(){ setNav(!document.body.classList.contains("nav-open")); });
   drawer.addEventListener("click", function(e){ if(e.target.closest("a")) setNav(false); });
   document.addEventListener("keydown", function(e){ if(e.key === "Escape") setNav(false); });
   window.addEventListener("resize", function(){ if(window.innerWidth > 880) setNav(false); });
 
-  /* duplicate marquee content for a seamless loop */
-  var mq = document.getElementById("marq");
-  if(mq && !reduce) mq.innerHTML += mq.innerHTML;
-
-  /* reveal + stagger */
-  var rv = document.querySelectorAll(".rv, .stg");
+  /* reveal */
+  var rv = document.querySelectorAll(".rv");
   if(reduce || !("IntersectionObserver" in window)){
     rv.forEach(function(el){ el.classList.add("in"); });
   } else {
     var io = new IntersectionObserver(function(es){
       es.forEach(function(en){
         if(!en.isIntersecting) return;
-        var sib = Array.prototype.filter.call(en.target.parentNode.children, function(c){ return c.classList.contains("rv") || c.classList.contains("stg"); });
-        en.target.style.transitionDelay = (Math.min(sib.indexOf(en.target),5) * 80) + "ms";
+        var sib = Array.prototype.filter.call(en.target.parentNode.children, function(c){ return c.classList.contains("rv"); });
+        var i = sib.indexOf(en.target);
+        en.target.style.transitionDelay = (i > 0 ? Math.min(i,6)*70 : 0) + "ms";
         en.target.classList.add("in");
         io.unobserve(en.target);
       });
-    }, {rootMargin:"0px 0px -8% 0px", threshold:.08});
+    }, {rootMargin:"0px 0px -10% 0px", threshold:.1});
     rv.forEach(function(el){ io.observe(el); });
   }
-
-  /* counters */
-  var nums = document.querySelectorAll("[data-count]");
-  function run(el){
-    var target = parseInt(el.getAttribute("data-count"),10), sfx = el.getAttribute("data-suffix") || "";
-    if(reduce){ el.innerHTML = target + (sfx ? "<em>"+sfx+"</em>" : ""); return; }
-    var t0 = null, dur = 1300;
-    function step(ts){
-      if(!t0) t0 = ts;
-      var p = Math.min((ts-t0)/dur,1), eased = 1-Math.pow(1-p,3);
-      el.innerHTML = Math.round(target*eased) + (sfx ? "<em>"+sfx+"</em>" : "");
-      if(p < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
-  }
-  if("IntersectionObserver" in window){
-    var co = new IntersectionObserver(function(es){
-      es.forEach(function(en){ if(en.isIntersecting){ run(en.target); co.unobserve(en.target); } });
-    }, {threshold:.5});
-    nums.forEach(function(n){ co.observe(n); });
-  } else { nums.forEach(run); }
 
   /* active nav */
   var links = [].slice.call(document.querySelectorAll(".nav a"));
@@ -849,11 +1083,95 @@ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3
   if("IntersectionObserver" in window && secs.length){
     var so = new IntersectionObserver(function(es){
       es.forEach(function(en){
-        if(en.isIntersecting) links.forEach(function(a){ a.classList.toggle("active", a.getAttribute("href") === "#"+en.target.id); });
+        if(en.isIntersecting) links.forEach(function(a){ a.classList.toggle("on", a.getAttribute("href") === "#"+en.target.id); });
       });
     }, {rootMargin:"-45% 0px -50% 0px"});
     secs.forEach(function(s){ so.observe(s); });
   }
+
+  /* ── FOCUS: the five points revolve around the circle ──
+     The ring steps 72 degrees every cycle so the live point
+     always arrives under the gold bracket at 12 o'clock.
+     Each label counter-rotates by the same amount, so text
+     stays upright the whole way round.                      */
+  var DUR  = 5200;
+  var STEP = 72;
+  var ring   = document.getElementById("orbitRing");
+  var nodes  = [].slice.call(document.querySelectorAll(".onode"));
+  var btns   = nodes.map(function(n){ return n.querySelector(".oface"); });
+  var texts  = [].slice.call(document.querySelectorAll(".fc-text"));
+  var panels = [].slice.call(document.querySelectorAll(".fc-panel"));
+  var cap    = document.getElementById("fcCap");
+  var stage  = document.getElementById("fcStage");
+  var orbit  = document.getElementById("orbit");
+  var focusSection = document.getElementById("focus");
+  var cur = -1, turns = 0, timer = null, running = false;
+
+  function paint(n, forward){
+    if(n === cur) return;
+    /* always travel the short way, but keep turning forward on auto-advance */
+    if(forward){
+      turns += 1;
+    } else {
+      var diff = ((n - cur) % nodes.length + nodes.length) % nodes.length;
+      if(diff > nodes.length/2) diff -= nodes.length;
+      turns += diff;
+    }
+    cur = n;
+    ring.style.setProperty("--rot", (-turns * STEP) + "deg");
+
+    nodes.forEach(function(el,i){
+      var on = i === n;
+      el.classList.toggle("on", on);
+      btns[i].setAttribute("aria-selected", on ? "true" : "false");
+      btns[i].tabIndex = on ? 0 : -1;
+    });
+    texts.forEach(function(el,i){ el.classList.toggle("on", i === n); });
+    panels.forEach(function(p,i){
+      p.classList.toggle("on", i === n);
+      p.setAttribute("aria-hidden", i === n ? "false" : "true");
+    });
+    var t = texts[n].querySelector("h3").textContent.trim();
+    cap.textContent = ("0"+(n+1)) + " \u2014 " + t;
+  }
+  function schedule(){
+    clearTimeout(timer);
+    if(reduce || !running) return;
+    timer = setTimeout(function(){ paint((cur+1) % nodes.length, true); schedule(); }, DUR);
+  }
+  function go(n){ paint(n, false); schedule(); }
+
+  btns.forEach(function(el,i){
+    el.addEventListener("click", function(){ go(i); });
+    el.addEventListener("keydown", function(e){
+      var n = null;
+      if(e.key === "ArrowRight" || e.key === "ArrowDown") n = (i+1) % nodes.length;
+      if(e.key === "ArrowLeft"  || e.key === "ArrowUp")   n = (i-1+nodes.length) % nodes.length;
+      if(n === null) return;
+      e.preventDefault(); go(n); btns[n].focus();
+    });
+  });
+
+  function pause(){ clearTimeout(timer); }
+  function resume(){ schedule(); }
+  [orbit, stage].forEach(function(el){
+    if(!el) return;
+    el.addEventListener("mouseenter", pause);
+    el.addEventListener("mouseleave", resume);
+    el.addEventListener("focusin", pause);
+    el.addEventListener("focusout", resume);
+  });
+  document.addEventListener("visibilitychange", function(){ document.hidden ? pause() : resume(); });
+
+  if("IntersectionObserver" in window){
+    new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        running = en.isIntersecting;
+        if(running) schedule(); else clearTimeout(timer);
+      });
+    }, {threshold:.2}).observe(focusSection);
+  } else { running = true; }
+  cur = 0;
 
   /* -----------------------------------------------------------
      CONTACT FORM
@@ -870,31 +1188,32 @@ select{appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3
   form.addEventListener("submit", function(e){
     e.preventDefault();
     if(form._gotcha.value) return;
-    var req = ["name","company","email","message"];
+    var req = [["name","your name"],["company","your business name"],["email","your email"],["message","a line of context"]];
     for(var i=0;i<req.length;i++){
-      var f = form.elements[req[i]];
-      if(!f.value.trim()){ show("err","Add your "+req[i]+" so we can respond."); f.focus(); return; }
+      var f = form.elements[req[i][0]];
+      if(!f.value.trim()){ show("err","Please add "+req[i][1]+" so we can respond."); f.focus(); return; }
     }
     if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(form.elements.email.value)){
-      show("err","That email address doesn't look right. Check it and send again."); form.elements.email.focus(); return;
+      show("err","That email address doesn't look right."); form.elements.email.focus(); return;
     }
     var data = {};
     new FormData(form).forEach(function(v,k){ if(k !== "_gotcha") data[k] = v; });
 
     if(!ENDPOINT){
       var body = Object.keys(data).map(function(k){ return k.toUpperCase()+": "+data[k]; }).join("\n");
-      window.location.href = "mailto:"+MAILTO+"?subject="+encodeURIComponent("Enquiry from "+data.name+" — "+data.company)+"&body="+encodeURIComponent(body);
+      window.location.href = "mailto:"+MAILTO+"?subject="+encodeURIComponent("Enquiry from "+data.name+" \u2014 "+data.company)+"&body="+encodeURIComponent(body);
       show("ok","Opening your email app with the enquiry ready to send.");
       return;
     }
     btn.disabled = true;
-    var label = btn.innerHTML; btn.textContent = "Sending…";
+    var label = btn.innerHTML; btn.textContent = "Sending\u2026";
     fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify(data)})
       .then(function(r){ if(!r.ok) throw new Error(r.status); form.reset(); show("ok","Enquiry received. We'll reply within two working days."); })
       .catch(function(){ show("err","That didn't send. Email us directly at "+MAILTO+"."); })
       .finally(function(){ btn.disabled = false; btn.innerHTML = label; });
   });
 })();
+
 </script>
 </body>
 </html>
